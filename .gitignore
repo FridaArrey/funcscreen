@@ -1,34 +1,15 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Environments and Virtual Envs
-.env
-.venv
+*.class
+.venv/
 env/
-venv/
-ENV/
 
-# Model Weights and Large Data (ESM-2 / ProteinMPNN)
-*.pt
-*.pth
-*.bin
-*.weights/
-models/
+# Large Data (Optional: keep if you want others to see your exact embeddings)
+# results/*.npy
 
-# Temporary Structural Files & Search Results
-*.pdb
-*.fasta
-*.xml
-*.log
-temp/
-
-# OS-specific
+# Mac
 .DS_Store
-Thumbs.db
 
-# Visualization Outputs
-
-* !master_biosecurity_gap.png
-* !precision_recall_final.png
+# Temporary PDBs
+*_predicted.pdb

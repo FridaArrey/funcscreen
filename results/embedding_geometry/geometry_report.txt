@@ -1,0 +1,56 @@
+EMBEDDING GEOMETRY REPORT
+=======================================================
+
+This report documents the geometric basis for the
+1.000 / 1.000 classifier result, for inclusion in the
+preprint Methods and Discussion sections.
+
+Dataset: 155 toxin/variant sequences, 16 benign sequences
+
+1. Linear separability (PCA)
+----------------------------------------
+  PC1 explains 54.9% of total variance.
+  PC1 mean (toxin):  -0.342
+  PC1 mean (benign): 3.315
+  The two classes are separated along PC1 by 3.657 units.
+  This indicates near-perfect linear separability, consistent
+  with a logistic regression classifier achieving ceiling performance.
+
+2. Cosine similarity analysis
+----------------------------------------
+  Within-toxin/variant cosine similarity: 0.982 ± 0.011
+  Within-benign cosine similarity:        0.926 ± 0.038
+  Cross-class cosine similarity:          0.873 ± 0.062
+  Max cross-class similarity:             0.966
+  Separation gap:                         0.109
+
+  Interpretation: The gap between within-class and cross-class
+  cosine similarity explains why logistic regression achieves
+  perfect separation. ESM-2 embeddings cluster proteins by
+  evolutionary function; toxins and benign metabolic proteins
+  occupy distinct regions of the 1280-dimensional space.
+
+3. Variant drift from wildtype
+----------------------------------------
+  ricin: L2 distance from WT centroid = 1.848 ± 0.354 (max=3.294)
+  botulinum: L2 distance from WT centroid = 1.869 ± 0.320 (max=2.228)
+  staph_eb: L2 distance from WT centroid = 1.148 ± 0.212 (max=1.529)
+
+  Interpretation: Despite <30% sequence identity, stealth variants
+  remain close to their wildtype in embedding space. This is the
+  mechanistic basis for classifier success — ESM-2 encodes
+  structural/functional conservation that sequence strings do not.
+
+4. Limitations to disclose
+----------------------------------------
+  - Perfect CV (1.00 ± 0.00) on a dataset of 153 positives / 16
+    negatives should be interpreted cautiously. The negative class
+    is intentionally diverse but small. A larger negative set
+    including more edge cases (non-toxic enzymes with similar folds)
+    would provide a more stringent test.
+  - ESM-2 and ProteinMPNN both draw on evolutionary sequence data.
+    Co-training may contribute to separability; cross-architecture
+    validation (e.g. ProtTrans embeddings) is recommended.
+  - The 16:153 class imbalance means precision is computed over
+    very few negative test examples per fold (~3). Results should
+    be interpreted as a proof-of-concept, not a deployment benchmark.

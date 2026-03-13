@@ -1,0 +1,1199 @@
+[
+  {
+    "header": "ricin_A_chain, score=1.7149, global_score=1.7149, fixed_chains=[], designed_chains=['A', 'B'], model_name=v_48_020, git_hash=8907e6671bfbfc92303b5f79c4b5e6ce47cdef57, seed=42",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=1, score=1.0297, global_score=1.0297, seq_recovery=0.4083",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=2, score=1.0450, global_score=1.0450, seq_recovery=0.3970",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=3, score=1.0502, global_score=1.0502, seq_recovery=0.3762",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=4, score=1.0276, global_score=1.0276, seq_recovery=0.4045",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=5, score=1.0683, global_score=1.0683, seq_recovery=0.3913",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=6, score=1.0087, global_score=1.0087, seq_recovery=0.3932",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=7, score=0.9940, global_score=0.9940, seq_recovery=0.4159",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=8, score=1.0469, global_score=1.0469, seq_recovery=0.4045",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=9, score=1.0109, global_score=1.0109, seq_recovery=0.4291",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=10, score=1.0117, global_score=1.0117, seq_recovery=0.3819",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=11, score=1.0203, global_score=1.0203, seq_recovery=0.4026",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=12, score=0.9907, global_score=0.9907, seq_recovery=0.4159",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=13, score=0.9969, global_score=0.9969, seq_recovery=0.4102",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=14, score=1.0397, global_score=1.0397, seq_recovery=0.3781",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=15, score=0.9934, global_score=0.9934, seq_recovery=0.4008",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=16, score=1.0327, global_score=1.0327, seq_recovery=0.4216",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=17, score=1.0094, global_score=1.0094, seq_recovery=0.4008",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=18, score=1.0108, global_score=1.0108, seq_recovery=0.4008",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=19, score=1.0185, global_score=1.0185, seq_recovery=0.4178",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=20, score=1.0371, global_score=1.0371, seq_recovery=0.3970",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=21, score=1.0261, global_score=1.0261, seq_recovery=0.4083",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=22, score=1.0312, global_score=1.0312, seq_recovery=0.3932",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=23, score=1.0254, global_score=1.0254, seq_recovery=0.4008",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=24, score=1.0374, global_score=1.0374, seq_recovery=0.3894",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=25, score=0.9812, global_score=0.9812, seq_recovery=0.3970",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=26, score=1.0341, global_score=1.0341, seq_recovery=0.4121",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=27, score=1.0329, global_score=1.0329, seq_recovery=0.4178",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=28, score=1.0078, global_score=1.0078, seq_recovery=0.3875",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=29, score=1.0440, global_score=1.0440, seq_recovery=0.4008",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=30, score=1.0373, global_score=1.0373, seq_recovery=0.3800",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=31, score=1.0297, global_score=1.0297, seq_recovery=0.3762",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=32, score=1.0470, global_score=1.0470, seq_recovery=0.3894",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=33, score=1.0231, global_score=1.0231, seq_recovery=0.4140",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=34, score=1.0143, global_score=1.0143, seq_recovery=0.4026",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=35, score=1.0492, global_score=1.0492, seq_recovery=0.4064",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=36, score=1.0236, global_score=1.0236, seq_recovery=0.4064",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=37, score=1.0329, global_score=1.0329, seq_recovery=0.4140",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=38, score=1.0328, global_score=1.0328, seq_recovery=0.4026",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=39, score=1.0052, global_score=1.0052, seq_recovery=0.3743",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=40, score=1.0352, global_score=1.0352, seq_recovery=0.4159",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=41, score=0.9726, global_score=0.9726, seq_recovery=0.4102",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=42, score=1.0183, global_score=1.0183, seq_recovery=0.3989",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=43, score=1.0012, global_score=1.0012, seq_recovery=0.4310",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=44, score=1.0378, global_score=1.0378, seq_recovery=0.4026",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=45, score=1.0342, global_score=1.0342, seq_recovery=0.4272",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=46, score=0.9961, global_score=0.9961, seq_recovery=0.3951",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=47, score=1.0211, global_score=1.0211, seq_recovery=0.3894",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=48, score=1.0311, global_score=1.0311, seq_recovery=0.4064",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=49, score=1.0575, global_score=1.0575, seq_recovery=0.3932",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "T=0.4, sample=50, score=1.0424, global_score=1.0424, seq_recovery=0.3951",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "ricin",
+    "source_file": "variants_output/ricin_A_chain/stealth/seqs/ricin_A_chain.fa"
+  },
+  {
+    "header": "botulinum_ntx_A, score=1.8279, global_score=1.8279, fixed_chains=[], designed_chains=['A'], model_name=v_48_020, git_hash=8907e6671bfbfc92303b5f79c4b5e6ce47cdef57, seed=42",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=1, score=1.1478, global_score=1.1478, seq_recovery=0.3602",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=2, score=1.1335, global_score=1.1335, seq_recovery=0.3532",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=3, score=1.1628, global_score=1.1628, seq_recovery=0.3430",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=4, score=1.1414, global_score=1.1414, seq_recovery=0.3406",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=5, score=1.1151, global_score=1.1151, seq_recovery=0.3477",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=6, score=1.1391, global_score=1.1391, seq_recovery=0.3367",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=7, score=1.1159, global_score=1.1159, seq_recovery=0.3485",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=8, score=1.1437, global_score=1.1437, seq_recovery=0.3399",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=9, score=1.1366, global_score=1.1366, seq_recovery=0.3469",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=10, score=1.1258, global_score=1.1258, seq_recovery=0.3524",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=11, score=1.1121, global_score=1.1121, seq_recovery=0.3461",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=12, score=1.1247, global_score=1.1247, seq_recovery=0.3453",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=13, score=1.1187, global_score=1.1187, seq_recovery=0.3547",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=14, score=1.1457, global_score=1.1457, seq_recovery=0.3673",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=15, score=1.1482, global_score=1.1482, seq_recovery=0.3446",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=16, score=1.1378, global_score=1.1378, seq_recovery=0.3579",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=17, score=1.1283, global_score=1.1283, seq_recovery=0.3540",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=18, score=1.1580, global_score=1.1580, seq_recovery=0.3500",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=19, score=1.1397, global_score=1.1397, seq_recovery=0.3477",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=20, score=1.1125, global_score=1.1125, seq_recovery=0.3383",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=21, score=1.1319, global_score=1.1319, seq_recovery=0.3594",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=22, score=1.1452, global_score=1.1452, seq_recovery=0.3500",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=23, score=1.1098, global_score=1.1098, seq_recovery=0.3469",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=24, score=1.1232, global_score=1.1232, seq_recovery=0.3547",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=25, score=1.1376, global_score=1.1376, seq_recovery=0.3579",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=26, score=1.1136, global_score=1.1136, seq_recovery=0.3571",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=27, score=1.1501, global_score=1.1501, seq_recovery=0.3477",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=28, score=1.1383, global_score=1.1383, seq_recovery=0.3563",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=29, score=1.1521, global_score=1.1521, seq_recovery=0.3406",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=30, score=1.1154, global_score=1.1154, seq_recovery=0.3320",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=31, score=1.1368, global_score=1.1368, seq_recovery=0.3563",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=32, score=1.1279, global_score=1.1279, seq_recovery=0.3265",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=33, score=1.1510, global_score=1.1510, seq_recovery=0.3265",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=34, score=1.1292, global_score=1.1292, seq_recovery=0.3587",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=35, score=1.1162, global_score=1.1162, seq_recovery=0.3563",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=36, score=1.1342, global_score=1.1342, seq_recovery=0.3587",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=37, score=1.1423, global_score=1.1423, seq_recovery=0.3297",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=38, score=1.1224, global_score=1.1224, seq_recovery=0.3422",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=39, score=1.1351, global_score=1.1351, seq_recovery=0.3485",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=40, score=1.1210, global_score=1.1210, seq_recovery=0.3399",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=41, score=1.1375, global_score=1.1375, seq_recovery=0.3438",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=42, score=1.1427, global_score=1.1427, seq_recovery=0.3399",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=43, score=1.1430, global_score=1.1430, seq_recovery=0.3453",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=44, score=1.1172, global_score=1.1172, seq_recovery=0.3532",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=45, score=1.1282, global_score=1.1282, seq_recovery=0.3563",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=46, score=1.1228, global_score=1.1228, seq_recovery=0.3555",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=47, score=1.1505, global_score=1.1505, seq_recovery=0.3485",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=48, score=1.1192, global_score=1.1192, seq_recovery=0.3477",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=49, score=1.1214, global_score=1.1214, seq_recovery=0.3406",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "T=0.4, sample=50, score=1.1505, global_score=1.1505, seq_recovery=0.3461",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "botulinum",
+    "source_file": "variants_output/botulinum_ntx_A/stealth/seqs/botulinum_ntx_A.fa"
+  },
+  {
+    "header": "staph_enterotoxin_B, score=1.4509, global_score=1.4509, fixed_chains=[], designed_chains=['A'], model_name=v_48_020, git_hash=8907e6671bfbfc92303b5f79c4b5e6ce47cdef57, seed=42",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=1, score=0.9092, global_score=0.9092, seq_recovery=0.4894",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=2, score=0.8950, global_score=0.8950, seq_recovery=0.4697",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=3, score=0.9095, global_score=0.9095, seq_recovery=0.4739",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=4, score=0.9304, global_score=0.9304, seq_recovery=0.4739",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=5, score=0.9249, global_score=0.9249, seq_recovery=0.4767",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=6, score=0.9118, global_score=0.9118, seq_recovery=0.4753",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=7, score=0.8893, global_score=0.8893, seq_recovery=0.4880",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=8, score=0.9382, global_score=0.9382, seq_recovery=0.4570",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=9, score=0.9482, global_score=0.9482, seq_recovery=0.4880",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=10, score=0.9268, global_score=0.9268, seq_recovery=0.4640",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=11, score=0.9251, global_score=0.9251, seq_recovery=0.4810",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=12, score=0.8929, global_score=0.8929, seq_recovery=0.4711",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=13, score=0.8988, global_score=0.8988, seq_recovery=0.4866",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=14, score=0.8935, global_score=0.8935, seq_recovery=0.4739",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=15, score=0.8952, global_score=0.8952, seq_recovery=0.4753",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=16, score=0.9170, global_score=0.9170, seq_recovery=0.4725",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=17, score=0.9319, global_score=0.9319, seq_recovery=0.4852",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=18, score=0.9053, global_score=0.9053, seq_recovery=0.4908",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=19, score=0.9193, global_score=0.9193, seq_recovery=0.4725",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=20, score=0.9900, global_score=0.9900, seq_recovery=0.4598",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=21, score=0.8879, global_score=0.8879, seq_recovery=0.4626",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=22, score=0.9119, global_score=0.9119, seq_recovery=0.4753",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=23, score=0.9307, global_score=0.9307, seq_recovery=0.4781",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=24, score=0.8834, global_score=0.8834, seq_recovery=0.4824",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=25, score=0.9150, global_score=0.9150, seq_recovery=0.4711",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=26, score=0.9065, global_score=0.9065, seq_recovery=0.4908",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=27, score=0.9060, global_score=0.9060, seq_recovery=0.4640",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=28, score=0.9029, global_score=0.9029, seq_recovery=0.4795",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=29, score=0.9000, global_score=0.9000, seq_recovery=0.4626",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=30, score=0.9021, global_score=0.9021, seq_recovery=0.4711",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=31, score=0.9366, global_score=0.9366, seq_recovery=0.4457",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=32, score=0.9223, global_score=0.9223, seq_recovery=0.4711",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=33, score=0.9138, global_score=0.9138, seq_recovery=0.4937",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=34, score=0.9275, global_score=0.9275, seq_recovery=0.4753",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=35, score=0.9102, global_score=0.9102, seq_recovery=0.4810",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=36, score=0.9192, global_score=0.9192, seq_recovery=0.4880",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=37, score=0.8822, global_score=0.8822, seq_recovery=0.4852",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=38, score=0.9168, global_score=0.9168, seq_recovery=0.4711",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=39, score=0.9248, global_score=0.9248, seq_recovery=0.4570",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=40, score=0.9023, global_score=0.9023, seq_recovery=0.4852",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=41, score=0.8874, global_score=0.8874, seq_recovery=0.4683",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=42, score=0.9426, global_score=0.9426, seq_recovery=0.4669",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=43, score=0.9185, global_score=0.9185, seq_recovery=0.4654",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=44, score=0.8964, global_score=0.8964, seq_recovery=0.5021",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=45, score=0.9359, global_score=0.9359, seq_recovery=0.4725",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=46, score=0.9404, global_score=0.9404, seq_recovery=0.4640",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=47, score=0.9327, global_score=0.9327, seq_recovery=0.4725",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=48, score=0.9071, global_score=0.9071, seq_recovery=0.4683",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=49, score=0.9230, global_score=0.9230, seq_recovery=0.4908",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "T=0.4, sample=50, score=0.9340, global_score=0.9340, seq_recovery=0.4824",
+    "label": 1,
+    "category": "stealth",
+    "toxin_class": "staph_eb",
+    "source_file": "variants_output/staph_enterotoxin_B/stealth/seqs/staph_enterotoxin_B.fa"
+  },
+  {
+    "header": "ricin_wt_predicted, score=1.9015, global_score=1.9015, fixed_chains=[], designed_chains=['A'], model_name=v_48_020, git_hash=8907e6671bfbfc92303b5f79c4b5e6ce47cdef57, seed=999",
+    "label": 1,
+    "category": "dud",
+    "toxin_class": "ricin",
+    "source_file": "variants_dud/seqs/ricin_wt_predicted.fa"
+  },
+  {
+    "header": "T=2.0, sample=1, score=3.0896, global_score=3.0896, seq_recovery=0.1020",
+    "label": 1,
+    "category": "dud",
+    "toxin_class": "ricin",
+    "source_file": "variants_dud/seqs/ricin_wt_predicted.fa"
+  },
+  {
+    "header": "sp|P60709|ACTB_HUMAN Actin, cytoplasmic 1 OS=Homo sapiens OX=9606 GN=ACTB PE=1 SV=1",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P68363|TBA1B_HUMAN Tubulin alpha-1B chain OS=Homo sapiens OX=9606 GN=TUBA1B PE=1 SV=1",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P07437|TBB5_HUMAN Tubulin beta chain OS=Homo sapiens OX=9606 GN=TUBB PE=1 SV=2",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P02545|LMNA_HUMAN Prelamin-A/C OS=Homo sapiens OX=9606 GN=LMNA PE=1 SV=1",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P04406|G3P_HUMAN Glyceraldehyde-3-phosphate dehydrogenase OS=Homo sapiens OX=9606 GN=GAPDH PE=1 SV=3",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P06733|ENOA_HUMAN Alpha-enolase OS=Homo sapiens OX=9606 GN=ENO1 PE=1 SV=2",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P04075|ALDOA_HUMAN Fructose-bisphosphate aldolase A OS=Homo sapiens OX=9606 GN=ALDOA PE=1 SV=2",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P00558|PGK1_HUMAN Phosphoglycerate kinase 1 OS=Homo sapiens OX=9606 GN=PGK1 PE=1 SV=3",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P10591|HSP71_YEAST Heat shock protein SSA1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSA1 PE=1 SV=4",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P0DMV8|HS71A_HUMAN Heat shock 70 kDa protein 1A OS=Homo sapiens OX=9606 GN=HSPA1A PE=1 SV=1",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P38646|HSPA9_HUMAN Stress-70 protein, mitochondrial OS=Homo sapiens OX=9606 GN=HSPA9 PE=1 SV=2",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P02768|ALBU_HUMAN Albumin OS=Homo sapiens OX=9606 GN=ALB PE=1 SV=2",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P02787|TRFE_HUMAN Serotransferrin OS=Homo sapiens OX=9606 GN=TF PE=1 SV=5",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P69905|HBA_HUMAN Hemoglobin subunit alpha OS=Homo sapiens OX=9606 GN=HBA1 PE=1 SV=2",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P00875|RBL_SPIOL Ribulose bisphosphate carboxylase large chain OS=Spinacia oleracea OX=3562 GN=rbcL PE=1 SV=1",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  },
+  {
+    "header": "sp|P00877|RBL_CHLRE Ribulose bisphosphate carboxylase large chain OS=Chlamydomonas reinhardtii OX=3055 GN=rbcL PE=1 SV=1",
+    "label": 0,
+    "category": "benign",
+    "toxin_class": "none",
+    "source_file": "negatives/negatives.fasta"
+  }
+]

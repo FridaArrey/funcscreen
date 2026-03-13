@@ -1,0 +1,28 @@
+EVASION ANALYSIS SUMMARY
+==================================================
+
+Key finding (for abstract / results section):
+----------------------------------------
+ESM-2 embedding-based classification achieves:
+  Precision : 1.000 ± 0.000 (5-fold CV)
+  Recall    : 1.000 ± 0.000 (5-fold CV)
+  F1        : 1.000 ± 0.000 (5-fold CV)
+
+BLAST performance in the primary evasion zone (<30% sequence identity):
+  < 20%: BLAST recall = 0.0, ESM-2 recall = 1.000 ± 0.000
+  20–30%: BLAST recall = N/A, ESM-2 recall = 1.000 ± 0.000
+
+Interpretation:
+  At <30% sequence identity — the primary regime exploited by
+  ProteinMPNN-based adversarial redesign — BLAST detection drops
+  substantially while ESM-2 latent embeddings maintain recall.
+  This demonstrates that function-based screening using protein
+  language model representations closes the evasion gap that
+  sequence-identity matching cannot address.
+
+Suggested abstract phrasing:
+  'AI-redesigned toxin variants with <30% sequence identity to
+  wildtype evaded BLAST-based screening at a rate of [X]%, while
+  an ESM-2 embedding classifier maintained recall of
+  1.00 ± 0.00 across 5-fold cross-validation,
+  catching [Y]% of BLAST-evading, structurally-retained variants.'

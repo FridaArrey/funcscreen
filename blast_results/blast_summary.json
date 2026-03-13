@@ -1,0 +1,49 @@
+{
+  "tp": 5,
+  "fp": 0,
+  "fn": 1,
+  "tn": 0,
+  "precision": 1.0,
+  "recall": 0.8333,
+  "f1": 0.9091,
+  "n_total": 6,
+  "blast_params": {
+    "program": "blastp",
+    "evalue": "1e-3",
+    "word_size": "3",
+    "matrix": "BLOSUM62",
+    "outfmt": "6 qseqid sseqid pident length evalue bitscore qcovs",
+    "identity_threshold_pct": 30.0,
+    "coverage_threshold_pct": 50.0,
+    "max_target_seqs": "500"
+  },
+  "category": "stealth",
+  "mode": "blast",
+  "n_sequences": 164,
+  "recall_by_identity_tier": [
+    {
+      "identity_bin": "0\u201320%",
+      "n_sequences": 1,
+      "n_detected": 0,
+      "recall": 0.0
+    },
+    {
+      "identity_bin": "30\u201340%",
+      "n_sequences": 1,
+      "n_detected": 1,
+      "recall": 1.0
+    },
+    {
+      "identity_bin": "40\u201350%",
+      "n_sequences": 2,
+      "n_detected": 2,
+      "recall": 1.0
+    },
+    {
+      "identity_bin": "70\u2013100%",
+      "n_sequences": 1,
+      "n_detected": 1,
+      "recall": 1.0
+    }
+  ]
+}

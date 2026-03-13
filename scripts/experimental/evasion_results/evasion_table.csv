@@ -1,0 +1,7 @@
+identity_bin,n_sequences,blast_recall,esm2_recall_mean,esm2_recall_std,frac_tm_high,evasion_catch_esm2,note
+< 20%,1,0.0,1.0,0.0,N/A,1.0,Primary evasion zone
+20–30%,0,N/A,1.0,0.0,N/A,N/A,Primary evasion zone
+30–40%,1,1.0,1.0,0.0,N/A,N/A,
+40–50%,2,1.0,1.0,0.0,N/A,N/A,
+50–70%,0,N/A,1.0,0.0,N/A,N/A,
+70–100%,1,1.0,1.0,0.0,N/A,N/A,

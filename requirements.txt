@@ -1,16 +1,49 @@
-# --- Core Biology & Data Processing ---
-biopython>=1.81
+
+# funcscreen — Python dependencies
+# Install: pip install -r requirements.txt
+#
+# Hardware note:
+#   - ESM-2 embedding (train_detector_cv.py): CPU works but is slow (~2 min/sequence).
+#     A CUDA GPU reduces this to ~5 sec/sequence. MPS (Apple Silicon) is supported.
+#   - ESMFold (fold_variant.py, fold_dud.py): Requires a CUDA GPU with ≥16 GB VRAM,
+#     or use the hosted API (see fold_variant.py --use_api flag).
+#   - ProteinMPNN: CPU-compatible; runs in ~30 sec/sequence on modern hardware.
+#   - BLAST (blast_baseline.py): Requires NCBI BLAST+ installed separately.
+#     Install: https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html
+#     Or via conda: conda install -c bioconda blast
+#   - Commec (optional, preferred for blast_baseline.py --mode commec):
+#     pip install commec   (then: commec download-databases)
+
+# ── Core ML / protein language models ─────────────────────────────────────────
+torch>=2.1.0
+transformers>=4.38.0          # ESM-2 via HuggingFace
+fair-esm>=2.0.0               # Meta ESM utilities (esmfold, esm2 tokeniser)
+accelerate>=0.26.0            # HuggingFace multi-GPU / device placement
+
+# ── Scikit-learn ───────────────────────────────────────────────────────────────
+scikit-learn>=1.4.0           # LogisticRegression, StratifiedKFold, metrics
+
+# ── Data / numerical ──────────────────────────────────────────────────────────
+numpy>=1.26.0
 pandas>=2.1.0
-numpy>=1.24.3
+scipy>=1.12.0                 # TM-score utilities, statistical tests
 
-# --- Machine Learning & AI Models ---
-torch>=2.0.0
-transformers>=4.30.0
-scikit-learn>=1.3.0
-scipy>=1.10.1
+# ── Bioinformatics ────────────────────────────────────────────────────────────
+biopython>=1.83               # SeqIO, pairwise alignment utilities
+requests>=2.31.0              # UniProt REST API (fetch_multitoxin.py, build_negative_class.py)
 
-# --- Visualization ---
-matplotlib>=3.7.0
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0               # confusion matrix and distribution plots
+umap-learn>=0.5.5             # Dimensionality reduction for embedding maps
 
-# --- API & Network ---
-requests>=2.31.0
+# ── Structure / folding ───────────────────────────────────────────────────────
+# ESMFold is bundled with fair-esm; for the hosted API alternative:
+# No additional install needed — uses requests (above)
+
+# ── Optional: Commec (IBBIS Common Mechanism) ────────────────────────────────
+# Uncomment to use --mode commec in blast_baseline.py
+# commec>=0.3.0
+
+# ── Development / testing ─────────────────────────────────────────────────────
+pytest>=7.4.0

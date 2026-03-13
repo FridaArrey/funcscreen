@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6724679</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>196</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6724679</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>196</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|ACZ56254.1|</Hit_id>
+  <Hit_def>ricin A chain, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ACZ56254</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>3.40135e-22</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>PVPSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PGPKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|ACZ56253.1|</Hit_id>
+  <Hit_def>ricin A chain, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ACZ56253</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>6.28243e-22</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYCYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1J1M|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis]</Hit_def>
+  <Hit_accession>1J1M_A</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>9.57926e-22</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLREDIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   ED  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1IFS|A</Hit_id>
+  <Hit_def>Chain A, RICIN [Ricinus communis] &gt;pdb|1IFT|A Chain A, RICIN [Ricinus communis] &gt;pdb|1IFU|A Chain A, RICIN [Ricinus communis]</Hit_def>
+  <Hit_accession>1IFS_A</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.10798e-21</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>VPSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>VPKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>VP +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|3SRP|A</Hit_id>
+  <Hit_def>Chain A, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>3SRP_A</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.49491e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDMTNAAVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4LGP|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis] &gt;pdb|4LGP|C Chain C, Ricin [Ricinus communis]</Hit_def>
+  <Hit_accession>4LGP_A</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.27867e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|2VC3|A</Hit_id>
+  <Hit_def>Chain A, RICIN A CHAIN [Ricinus communis] &gt;pdb|2VC4|A Chain A, RICIN A CHAIN [Ricinus communis]</Hit_def>
+  <Hit_accession>2VC3_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.36453e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1BR6|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (RICIN) [Ricinus communis] &gt;pdb|1RTC|A Chain A, RICIN [Ricinus communis] &gt;pdb|2P8N|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|2PJO|A Chain A, Ricin (EC 3.2.2.22) [Ricinus communis] &gt;pdb|2R2X|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|2R3D|A Chain A, Ricin A chain (EC 3.2.2.22) [Ricinus communis] &gt;pdb|3HIO|A Chain A, Ricin [Ricinus communis] &gt;pdb|4HV3|A Chain A, Ricin [Ricinus communis] &gt;pdb|4MX1|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|4MX5|X Chain X, Ricin A chain [Ricinus communis] &gt;pdb|5J56|A Chain A, Ricin [Ricinus communis] &gt;pdb|5J57|A Chain A, Ricin [Ricinus communis] &gt;pdb|6CWG|A Chain A, Ricin [Ricinus communis] &gt;pdb|6CWG|C Chain C, Ricin [Ricinus communis] &gt;pdb|6URW|A Chain A, Ricin [Ricinus communis] &gt;pdb|6URX|A Chain A, Ricin [Ricinus communis] &gt;pdb|6URY|A Chain A, Ricin [Ricinus communis] &gt;pdb|6URY|B Chain B, Ricin [Ricinus communis] &gt;pdb|7MLN|A Chain A, Ricin [Ricinus communis] &gt;pdb|7MLO|A Chain A, Ricin [Ricinus communis] &gt;pdb|7MLO|B Chain B, Ricin [Ricinus communis] &gt;pdb|7MLP|A Chain A, Ricin [Ricinus communis] &gt;pdb|7MLT|A Chain A, Ricin [Ricinus communis] &gt;gb|AAA72820.1| ricin A-chain [synthetic construct]</Hit_def>
+  <Hit_accession>1BR6_A</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.49451e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|ABG65738.1|</Hit_id>
+  <Hit_def>ricin A chain, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ABG65738</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.50434e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGSLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|1OBS|A</Hit_id>
+  <Hit_def>Chain A, RICIN A CHAIN [Ricinus communis] &gt;pdb|1OBT|A Chain A, RICIN A CHAIN [Ricinus communis]</Hit_def>
+  <Hit_accession>1OBS_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.55193e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|6OBE|A</Hit_id>
+  <Hit_def>Chain A, Ricin A chain [Ricinus communis] &gt;pdb|6OCA|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|6OCA|B Chain B, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>6OBE_A</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.571e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|5U4L|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis] &gt;pdb|9E3T|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|9E3T|B Chain B, Ricin A chain [Ricinus communis] &gt;pdb|9E40|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|9E42|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|9E42|B Chain B, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>5U4L_A</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.65484e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|1BR5|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (RICIN) [Ricinus communis] &gt;pdb|1IL3|A Chain A, RICIN A CHAIN [Ricinus communis] &gt;pdb|1IL4|A Chain A, RICIN A CHAIN [Ricinus communis] &gt;pdb|1IL5|A Chain A, RICIN A CHAIN [Ricinus communis] &gt;pdb|1IL5|B Chain B, RICIN A CHAIN [Ricinus communis] &gt;pdb|1IL9|A Chain A, RICIN A CHAIN [Ricinus communis] &gt;pdb|2AAI|A Chain A, Ricin (a Chain) [Ricinus communis] &gt;pdb|3RTI|A Chain A, Ricin [Ricinus communis] &gt;pdb|3RTJ|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|4ESI|A Chain A, Ricin [Ricinus communis] &gt;pdb|4HUO|X Chain X, Ricin [Ricinus communis] &gt;pdb|4HUP|X Chain X, Ricin [Ricinus communis] &gt;pdb|4HV7|X Chain X, Ricin [Ricinus communis] &gt;pdb|4KUC|A Chain A, Ricin [Ricinus communis] &gt;pdb|4KUC|I Chain I, Ricin [Ricinus communis] &gt;pdb|7KBI|A Chain A, Ricin chain A [Ricinus communis] &gt;pdb|7KBK|A Chain A, Ricin [Ricinus communis] &gt;pdb|7KC9|A Chain A, Ricin chain A [Ricinus communis] &gt;pdb|7KC9|D Chain D, Ricin chain A [Ricinus communis] &gt;pdb|7KD0|A Chain A, Ricin chain A [Ricinus communis] &gt;pdb|7KD2|A Chain A, Ricin chain A [Ricinus communis] &gt;pdb|7KDM|A Chain A, Ricin chain A [Ricinus communis] &gt;pdb|7KDM|D Chain D, Ricin chain A [Ricinus communis] &gt;pdb|7KDU|A Chain A, Ricin chain A [Ricinus communis] &gt;pdb|7TGF|A Chain A, Ricin chain A [Ricinus communis] &gt;pdb|7TGI|A Chain A, Ricin chain A [Ricinus communis] &gt;pdb|7TH3|A Chain A, Ricin chain A [Ricinus communis]</Hit_def>
+  <Hit_accession>1BR5_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.74736e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|7TH2|A</Hit_id>
+  <Hit_def>Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7TH2|B Chain B, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>7TH2_A</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>4.87754e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|7XZS|A</Hit_id>
+  <Hit_def>Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7XZT|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7XZU|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7XZW|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7Y02|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7Y03|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7Y05|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7Y06|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7Y07|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7Y08|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7Y4K|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|7Y4M|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|8I7P|A Chain A, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>7XZS_A</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>5.02429e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|ACV85690.1|</Hit_id>
+  <Hit_def>ricin toxin a-chain [synthetic construct]</Hit_def>
+  <Hit_accession>ACV85690</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>5.25143e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|5DDZ|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis]</Hit_def>
+  <Hit_accession>5DDZ_A</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>5.39264e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|4Q2V|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis]</Hit_def>
+  <Hit_accession>4Q2V_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>5.98285e-21</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|ADG29112.1|</Hit_id>
+  <Hit_def>preproricin, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ADG29112</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.0285e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLGENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG  GE+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>prf||0408164A</Hit_id>
+  <Hit_def>ricin D Ile chain [Ricinus communis]</Hit_def>
+  <Hit_accession>0408164A</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.26681e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELQNHAELSVTLALSVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V + N    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|5GU4|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis] &gt;pdb|5GU4|B Chain B, Ricin [Ricinus communis]</Hit_def>
+  <Hit_accession>5GU4_A</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.26857e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>prf||1405280A</Hit_id>
+  <Hit_def>ricin A [Escherichia coli]</Hit_def>
+  <Hit_accession>1405280A</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.67914e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|ADG29080.1|</Hit_id>
+  <Hit_def>preproricin, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ADG29080</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>3.07819e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANGSRDP</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTGGTQP</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|6OBG|A</Hit_id>
+  <Hit_def>Chain A, Ricin A chain [Ricinus communis] &gt;pdb|6OBG|B Chain B, Ricin A chain [Ricinus communis] &gt;pdb|6OBO|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|6OBO|B Chain B, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>6OBG_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>3.64579e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|4LGS|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis]</Hit_def>
+  <Hit_accession>4LGS_A</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>3.67509e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|8TAD|A</Hit_id>
+  <Hit_def>Chain A, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>8TAD_A</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>3.69834e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|4LHJ|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis]</Hit_def>
+  <Hit_accession>4LHJ_A</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>3.70811e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|8TFL|A</Hit_id>
+  <Hit_def>Chain A, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>8TFL_A</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>3.81864e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|6OBC|A</Hit_id>
+  <Hit_def>Chain A, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>6OBC_A</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>3.82683e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1UQ4|A</Hit_id>
+  <Hit_def>Chain A, RICIN [Ricinus communis]</Hit_def>
+  <Hit_accession>1UQ4_A</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>3.91396e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|3EJ5|X</Hit_id>
+  <Hit_def>Chain X, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>3EJ5_X</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>3.92413e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|3PX8|X</Hit_id>
+  <Hit_def>Chain X, Preproricin [Ricinus communis] &gt;pdb|3PX9|X Chain X, Preproricin [Ricinus communis] &gt;pdb|4Z9K|A Chain A, Ricin [Ricinus communis] &gt;pdb|8T9V|A Chain A, Ricin [Ricinus communis] &gt;pdb|8TAB|A Chain A, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>3PX8_X</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>3.95759e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|4LGR|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis] &gt;pdb|5U4M|A Chain A, Ricin [Ricinus communis]</Hit_def>
+  <Hit_accession>4LGR_A</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.06542e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|5E1H|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis] &gt;pdb|6OCD|A Chain A, Ricin A chain [Ricinus communis] &gt;pdb|6OCD|C Chain C, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>5E1H_A</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.17106e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|5BOZ|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis] &gt;pdb|5BOZ|B Chain B, Ricin [Ricinus communis] &gt;pdb|5BOZ|C Chain C, Ricin [Ricinus communis] &gt;pdb|5BOZ|D Chain D, Ricin [Ricinus communis] &gt;pdb|5BOZ|E Chain E, Ricin [Ricinus communis] &gt;pdb|5BOZ|F Chain F, Ricin [Ricinus communis]</Hit_def>
+  <Hit_accession>5BOZ_A</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.18783e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|4LHQ|A</Hit_id>
+  <Hit_def>Chain A, Ricin [Ricinus communis] &gt;pdb|4LHQ|C Chain C, Ricin [Ricinus communis] &gt;pdb|8TFH|A Chain A, Ricin A chain [Ricinus communis]</Hit_def>
+  <Hit_accession>4LHQ_A</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.24149e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|1UQ5|A</Hit_id>
+  <Hit_def>Chain A, RICIN [Ricinus communis]</Hit_def>
+  <Hit_accession>1UQ5_A</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.34704e-20</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>KYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>QYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGAYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>+Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|EEF26167.1|</Hit_id>
+  <Hit_def>ricin homolog, truncated, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>EEF26167</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>6.46597e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|WDV57319.1|</Hit_id>
+  <Hit_def>RTAM-PAP1 [synthetic construct]</Hit_def>
+  <Hit_accession>WDV57319</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>7.75938e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|QIJ58751.1|</Hit_id>
+  <Hit_def>ricin toxin/anti-breast cancer anitibody [synthetic construct]</Hit_def>
+  <Hit_accession>QIJ58751</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>8.29022e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|AAB22582.1|</Hit_id>
+  <Hit_def>proricin A chain, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>AAB22582</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>9.12096e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHDIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|ADG29073.1|</Hit_id>
+  <Hit_def>preproricin, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ADG29073</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>9.56237e-20</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRAGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|WKY18136.1|</Hit_id>
+  <Hit_def>ricin A/panitumumab scFv [synthetic construct]</Hit_def>
+  <Hit_accession>WKY18136</Hit_accession>
+  <Hit_len>737</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.0581e-19</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|ADG29047.1|</Hit_id>
+  <Hit_def>preproricin, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ADG29047</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.10703e-19</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLXENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|ADG29079.1|</Hit_id>
+  <Hit_def>preproricin, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ADG29079</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.12886e-19</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLXENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|NP_001310630.1|</Hit_id>
+  <Hit_def>rRNA N-glycosylase precursor [Ricinus communis] &gt;emb|CAA26230.1| unnamed protein product [Ricinus communis]</Hit_def>
+  <Hit_accession>NP_001310630</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.13034e-19</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHDIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|ADG29040.1|</Hit_id>
+  <Hit_def>preproricin, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ADG29040</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.1738e-19</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLXENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|ADG29078.1|</Hit_id>
+  <Hit_def>preproricin, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ADG29078</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.2568e-19</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAGLSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_048233460.1|</Hit_id>
+  <Hit_def>ricin isoform X1 [Ricinus communis]</Hit_def>
+  <Hit_accession>XP_048233460</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.34151e-19</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|ADG29037.1|</Hit_id>
+  <Hit_def>preproricin, partial [Ricinus communis]</Hit_def>
+  <Hit_accession>ADG29037</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.34566e-19</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>PSKYTEISFNFNGATPHTEEQFWLDVKAELFKDGEIVDGIAQFPSEKGLPYERRFLYVSISNSDNYTVTFAVRRTDGMIVGYQAGDVSVWFRPNNEEVAEIIKRLFTQIEQRHQLPYTGEMPVLQRLAGKNGEDCPLGKEPLGACVALLDSWANG</Hsp_qseq>
+      <Hsp_hseq>PKQYPIINFTTAGATVQSYTNFIRAVRGRLTTGADVRHEIPVLPNRVGLPINQRFILVELSNHAELSVTLALDVTNAYVVGYRAGNSAYFFHPDNQEDAEAITHLFTDVQNRYTFAFGGNYDRLEQLAGNLRENIELGNGPLEEAISALYYYSTG</Hsp_hseq>
+      <Hsp_midline>P +Y  I+F   GAT  +   F   V+  L    ++   I   P+  GLP  +RF+ V +SN    +VT A+  T+  +VGY+AG+ + +F P+N+E AE I  LFT ++ R+   + G    L++LAG   E+  LG  PL   ++ L  ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1022045744</Statistics_db-num>
+      <Statistics_db-len>1730605326</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,43 @@
+NEGATIVE CLASS REPORT — funcscreen classifier
+=======================================================
+
+Source:   UniProt Swiss-Prot (manually reviewed entries only)
+Total:    16 sequences
+Positive: ~30 (toxin variants)
+Ratio:    ~0.5× negative oversampling
+
+Rationale
+---------
+Negative proteins were selected to span multiple structural folds
+and functional classes, ensuring the classifier generalises beyond
+narrow sequence or taxonomic features. Plant proteins (RuBisCO) are
+included to confirm the classifier learns biochemical mechanism rather
+than organism-of-origin, given that the ricin positive proxy is also
+plant-derived.
+
+Categories sampled
+------------------
+  cytoskeletal (4 sequences):
+    - Actin, cytoplasmic 1 (beta)
+    - Tubulin alpha-1B chain
+    - Tubulin beta chain
+    - Prelamin-A/C (Lamin A)
+  metabolic_enzyme (4 sequences):
+    - Glyceraldehyde-3-phosphate dehydrogenase
+    - Alpha-enolase
+    - Fructose-bisphosphate aldolase A
+    - Phosphoglycerate kinase 1
+  chaperone (3 sequences):
+    - Heat shock protein SSA1 (Hsp70)
+    - Heat shock 70 kDa protein 1A
+    - Stress-70 protein, mitochondrial (GRP75)
+  transport (3 sequences):
+    - Serum albumin
+    - Serotransferrin
+    - Hemoglobin subunit alpha
+  plant_structural (2 sequences):
+    - RuBisCO large subunit
+    - RuBisCO large subunit
+
+All sequences are non-pathogenic, non-toxic, and publicly available
+in UniProt Swiss-Prot. No controlled or restricted sequences are used.

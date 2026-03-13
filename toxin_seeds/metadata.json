@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ricin_A_chain",
+    "accession": "P02879",
+    "name": "Ricin A-chain",
+    "organism": "Ricinus communis",
+    "category": "ribosome-inactivating protein",
+    "notes": "N-glycosidase; depurinates 28S rRNA. Reference proxy for BLAST evasion benchmark.",
+    "length": 576,
+    "uniprot_function": "Ricin is highly toxic to animal cells, and to a lesser extent to plant cells"
+  },
+  {
+    "id": "botulinum_ntx_A",
+    "accession": "P10844",
+    "name": "Botulinum neurotoxin type A light chain",
+    "organism": "Clostridium botulinum",
+    "category": "metalloprotease",
+    "notes": "Zn-endopeptidase; cleaves SNAP-25. HHS BSAT Schedule 1.",
+    "length": 1291,
+    "uniprot_function": "Botulinum toxin causes flaccid paralysis by inhibiting neurotransmitter (acetylcholine) release from the presynaptic membranes of nerve terminals of the eukaryotic host skeletal and autonomic nervous system, with frequent heart or respiratory failure. Precursor of botulinum neurotoxin B which has 2 coreceptors; complex polysialylated gangliosides found on neural tissue and specific membrane-anchored proteins found in synaptic vesicles (PubMed:17167418, PubMed:17167421, PubMed:17185412, PubMed:23807078). Receptor proteins are exposed on host presynaptic cell membrane during neurotransmitter release, when the toxin heavy chain (HC) binds to them (PubMed:14504267). Upon synaptic vesicle recycling the toxin is taken up via the endocytic pathway (PubMed:14504267). When the pH of the toxin-containing endosome drops a structural rearrangement occurs so that the N-terminus of the HC forms pores that allows the light chain (LC) to translocate into the cytosol (PubMed:3856850). Once in the cytosol the disulfide bond linking the 2 subunits is reduced and LC cleaves its target protein on synaptic vesicles, preventing their fusion with the cytoplasmic membrane and thus neurotransmitter release. Binds to host peripheral neuronal presynaptic membranes via synaptotagmins 1 and 2 (SYT1 and SYT2) (PubMed:14504267, PubMed:8144634). Toxin binds to the membrane proximal extra-cytoplasmic region of host SYT1 and SYT2 that is transiently exposed outside of cells during exocytosis; exogenous gangliosides enhance binding and subsequent uptake of toxin into host cells (PubMed:14504267, PubMed:15123599). Toxin uptake into neural cells requires stimulation (incubation with K(+) to stimulate SYT protein receptor exposure); subsequently the toxin colocalizes with its receptor in host cells with a concomitant decrease in target protein (synaptobrevin-2/VAMP2) immunoreactivity (PubMed:14504267). Toxin uptake can be blocked by the appropriate synaptotagmin protein fragments and gangliosides in cell culture and in mice (PubMed:14504267, PubMed:15123599). BoNT/B is a 'coincidence detector'; it requires simultaneous binding to coreceptor GT1b and low pH to transform into a membrane-bound, oligomeric channel (PubMed:21925111, PubMed:22720883). Whole toxin only has protease activity after reduction which releases LC (PubMed:1331807, PubMed:7803399)"
+  },
+  {
+    "id": "staph_enterotoxin_B",
+    "accession": "P01552",
+    "name": "Staphylococcal enterotoxin B",
+    "organism": "Staphylococcus aureus",
+    "category": "superantigen",
+    "notes": "T-cell superantigen; potent emetic. CDC/USDA select agent.",
+    "length": 266,
+    "uniprot_function": "Staphylococcal enterotoxin that activates the host immune system by binding as unprocessed molecules to major histocompatibility (MHC) complex class II and T-cell receptor (TCR) molecules. In turn, this ternary complex activates a large number of T-lymphocytes initiating a systemic release of pro-inflammatory cytokines (PubMed:2303780, PubMed:25015819). Also causes the intoxication staphylococcal food poisoning syndrome (By similarity)"
+  }
+]

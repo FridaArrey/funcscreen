@@ -1,0 +1,130 @@
+[
+  {
+    "accession": "P60709",
+    "category": "cytoskeletal",
+    "name": "Actin, cytoplasmic 1 (beta)",
+    "organism": "Homo sapiens",
+    "length": 375,
+    "label": 0
+  },
+  {
+    "accession": "P68363",
+    "category": "cytoskeletal",
+    "name": "Tubulin alpha-1B chain",
+    "organism": "Homo sapiens",
+    "length": 451,
+    "label": 0
+  },
+  {
+    "accession": "P07437",
+    "category": "cytoskeletal",
+    "name": "Tubulin beta chain",
+    "organism": "Homo sapiens",
+    "length": 444,
+    "label": 0
+  },
+  {
+    "accession": "P02545",
+    "category": "cytoskeletal",
+    "name": "Prelamin-A/C (Lamin A)",
+    "organism": "Homo sapiens",
+    "length": 664,
+    "label": 0
+  },
+  {
+    "accession": "P04406",
+    "category": "metabolic_enzyme",
+    "name": "Glyceraldehyde-3-phosphate dehydrogenase",
+    "organism": "Homo sapiens",
+    "length": 335,
+    "label": 0
+  },
+  {
+    "accession": "P06733",
+    "category": "metabolic_enzyme",
+    "name": "Alpha-enolase",
+    "organism": "Homo sapiens",
+    "length": 434,
+    "label": 0
+  },
+  {
+    "accession": "P04075",
+    "category": "metabolic_enzyme",
+    "name": "Fructose-bisphosphate aldolase A",
+    "organism": "Homo sapiens",
+    "length": 364,
+    "label": 0
+  },
+  {
+    "accession": "P00558",
+    "category": "metabolic_enzyme",
+    "name": "Phosphoglycerate kinase 1",
+    "organism": "Homo sapiens",
+    "length": 417,
+    "label": 0
+  },
+  {
+    "accession": "P10591",
+    "category": "chaperone",
+    "name": "Heat shock protein SSA1 (Hsp70)",
+    "organism": "Saccharomyces cerevisiae",
+    "length": 642,
+    "label": 0
+  },
+  {
+    "accession": "P0DMV8",
+    "category": "chaperone",
+    "name": "Heat shock 70 kDa protein 1A",
+    "organism": "Homo sapiens",
+    "length": 641,
+    "label": 0
+  },
+  {
+    "accession": "P38646",
+    "category": "chaperone",
+    "name": "Stress-70 protein, mitochondrial (GRP75)",
+    "organism": "Homo sapiens",
+    "length": 679,
+    "label": 0
+  },
+  {
+    "accession": "P02768",
+    "category": "transport",
+    "name": "Serum albumin",
+    "organism": "Homo sapiens",
+    "length": 609,
+    "label": 0
+  },
+  {
+    "accession": "P02787",
+    "category": "transport",
+    "name": "Serotransferrin",
+    "organism": "Homo sapiens",
+    "length": 698,
+    "label": 0
+  },
+  {
+    "accession": "P69905",
+    "category": "transport",
+    "name": "Hemoglobin subunit alpha",
+    "organism": "Homo sapiens",
+    "length": 142,
+    "label": 0
+  },
+  {
+    "accession": "P00875",
+    "category": "plant_structural",
+    "name": "RuBisCO large subunit",
+    "organism": "Spinacia oleracea",
+    "length": 475,
+    "label": 0
+  },
+  {
+    "accession": "P00877",
+    "category": "plant_structural",
+    "name": "RuBisCO large subunit",
+    "organism": "Nicotiana tabacum",
+    "length": 475,
+    "label": 0
+  }
+]

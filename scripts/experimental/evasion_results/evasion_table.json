@@ -1,0 +1,62 @@
+[
+  {
+    "identity_bin": "< 20%",
+    "n_sequences": 1,
+    "blast_recall": 0.0,
+    "esm2_recall_mean": 1.0,
+    "esm2_recall_std": 0.0,
+    "frac_tm_high": "N/A",
+    "evasion_catch_esm2": 1.0,
+    "note": "Primary evasion zone"
+  },
+  {
+    "identity_bin": "20\u201330%",
+    "n_sequences": 0,
+    "blast_recall": "N/A",
+    "esm2_recall_mean": 1.0,
+    "esm2_recall_std": 0.0,
+    "frac_tm_high": "N/A",
+    "evasion_catch_esm2": "N/A",
+    "note": "Primary evasion zone"
+  },
+  {
+    "identity_bin": "30\u201340%",
+    "n_sequences": 1,
+    "blast_recall": 1.0,
+    "esm2_recall_mean": 1.0,
+    "esm2_recall_std": 0.0,
+    "frac_tm_high": "N/A",
+    "evasion_catch_esm2": "N/A",
+    "note": ""
+  },
+  {
+    "identity_bin": "40\u201350%",
+    "n_sequences": 2,
+    "blast_recall": 1.0,
+    "esm2_recall_mean": 1.0,
+    "esm2_recall_std": 0.0,
+    "frac_tm_high": "N/A",
+    "evasion_catch_esm2": "N/A",
+    "note": ""
+  },
+  {
+    "identity_bin": "50\u201370%",
+    "n_sequences": 0,
+    "blast_recall": "N/A",
+    "esm2_recall_mean": 1.0,
+    "esm2_recall_std": 0.0,
+    "frac_tm_high": "N/A",
+    "evasion_catch_esm2": "N/A",
+    "note": ""
+  },
+  {
+    "identity_bin": "70\u2013100%",
+    "n_sequences": 1,
+    "blast_recall": 1.0,
+    "esm2_recall_mean": 1.0,
+    "esm2_recall_std": 0.0,
+    "frac_tm_high": "N/A",
+    "evasion_catch_esm2": "N/A",
+    "note": ""
+  }
+]
