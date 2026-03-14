@@ -178,13 +178,13 @@ AI-driven protein design has made sequence-only biosecurity screening insufficie
 
 1. Dauparas, J., Anishchenko, I., Bennett, N., Bai, H., Ragotte, R.J., Milles, L.F., … Baker, D. (2022). Robust deep learning–based protein sequence design using ProteinMPNN. *Science*, 378(6615), 49–56. https://doi.org/10.1126/science.add2187
 
-2. Ikonomova, S., [et al.] (2026). [TEVV framework preprint title]. *bioRxiv* [Preprint]. https://doi.org/10.64898/2026.02.26.708394
+2. Ikonomova, S.P., Wittmann, B.J., Piorino, F., Ross, D.J., Schaffter, S.W., Vasilyeva, O., Horvitz, E., Diggans, J., Strychalski, E.A., Lin-Gibson, S., & Taghon, G.J. (2025). Experimental Evaluation of AI-Driven Protein Design Risks Using Safe Biological Proxies. *bioRxiv* [Preprint]. https://doi.org/10.1101/2025.05.15.654077
 
 3. Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., … Rives, A. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. *Science*, 379(6637), 1123–1130. https://doi.org/10.1126/science.ade2574
 
 4. Rost, B. (1999). Twilight zone of protein sequence alignments. *Protein Engineering*, 12(2), 85–94. https://doi.org/10.1093/protein/12.2.85
 
-5. Wittmann, B.J., [et al.] (2024). Toward AI-Resilient Screening of Nucleic Acid Synthesis Orders: Process, Results, and Recommendations. *bioRxiv* [Preprint]. https://doi.org/10.1101/2024.12.02.626439confirmed 
+5. Wittmann, B.J., Alexanian, T., Bartling, C., Beal, J., Clore, A., Diggans, J., Flyangolts, K., Gemler, B.T., Mitchell, T., Murphy, S.T., Wheeler, N.E., & Horvitz, E. (2025). Strengthening nucleic acid biosecurity screening against generative protein design tools. *Science*, 387(6730). https://doi.org/10.1126/science.adu8578 
 
 6. Xu, J., & Zhang, Y. (2010). How significant is a protein structure similarity with TM-score = 0.5? *Bioinformatics*, 26(7), 889–895. https://doi.org/10.1093/bioinformatics/btq066
 
