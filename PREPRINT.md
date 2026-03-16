@@ -1,6 +1,6 @@
 # Benchmarking Function-Based Biosecurity Screening: Can Protein Language Model Embeddings Detect AI-Redesigned Toxins that Evade BLAST?
 
-**Author:** Dr. Frida Arrey  
+**Author:** Frida Arrey  
 **Affiliation:** [Institution]  
 **Date:** March 2026  
 **Status:** Preprint — not yet peer reviewed  
@@ -29,9 +29,11 @@ The biosecurity of nucleic acid and protein synthesis relies on the assumption t
 
 ProteinMPNN (Dauparas et al., 2022) is an open-source, CPU-compatible generative protein design tool that redesigns amino acid sequences to fit a fixed protein backbone. Because it optimises over sequence space while holding structure fixed, it can traverse large sequence distances while preserving the three-dimensional fold responsible for biochemical function. The result is a protein that is a functional analogue of a known toxin but unrecognisable to any tool that operates on sequence strings.
 
-This vulnerability was identified conceptually by Wittmann et al. (2024), who showed that BLAST-based screening for biological select agents fails at sequence identities below approximately 30% — the "twilight zone" of sequence-structure relationships (Rost, 1999). The March 2026 preprint by Ikonomova et al. proposed the TEVV (Toxin Embedding Verification & Validation) framework and called explicitly for working implementations that benchmark embedding-based detection against sequence-based baselines. This paper is a direct response to that call.
+This vulnerability was identified conceptually by Wittmann et al. (2025), who showed that BLAST-based screening for biological select agents fails at sequence identities below approximately 30% — the "twilight zone" of sequence-structure relationships (Rost, 1999). The March 2026 preprint by Ikonomova et al. proposed the TEVV (Toxin Embedding Verification & Validation) framework and called explicitly for working implementations that benchmark embedding-based detection against sequence-based baselines. This paper is a direct response to that call.
 
 We address the following question: **when a protein language model embedding is used as the basis for threat classification rather than sequence identity, does it detect AI-redesigned toxin variants that evade BLAST?**
+
+Concurrent and independent work at the Oxbridge Varsity Hackathon 2026 (London, March 2026) produced two further tools addressing the same vulnerability, providing independent validation that the field is converging on this problem. Parallax (Hao, Chen & Jain, 2026) implements a full-stack screening application using ESM-2 embeddings, an MLP classifier, nearest-neighbor hazard database search, and a BLAST comparison explainer — arriving at the same ESM-2 vs BLAST architecture independently and adding six-frame DNA translation for direct synthesis order screening. ProteinRisk (Parsons, Torubarov, Ichtchenko & Bonato, 2026) takes a complementary approach: a two-stage tool that verifies whether a submitted sequence is consistent with its claimed organism of origin, then scans for known harmful structural motifs including HEXXH metalloprotease patterns and pore-forming domains. These three projects — funcscreen, Parallax, and ProteinRisk — are independent implementations that together suggest a complete multi-layer screening architecture: organism verification, motif detection, and embedding-based evasion detection. That three independent teams arrived at overlapping conclusions within the same month is itself a signal about the state of the field.
 
 ---
 
@@ -122,15 +124,27 @@ In the primary evasion tier (< 20% identity), BLAST failed on all 40 structurall
 
 ---
 
-## 4. Discussion
+## 4. Related Work
 
-### 4.1 Why BLAST Fails in the Twilight Zone
+Three independent projects addressing the same BLAST evasion vulnerability emerged concurrently with this work, all from the Oxbridge Varsity Hackathon 2026.
+
+**Parallax** (Hao, Chen & Jain, 2026; github.com/swarnim-j/parallax) is the closest architectural parallel to funcscreen. It implements ESM-2 embeddings with an MLP classifier, cosine similarity nearest-neighbor search against a hazard database, and a comparative explainer that explicitly reports whether BLAST would have detected the same sequence. Key additions beyond funcscreen include: six-frame DNA translation (enabling direct screening of synthesis orders in nucleotide format rather than amino acid sequences), a deployed Flask/Next.js web interface, ESMFold 3D structure visualisation, and t-SNE embedding space projection. The primary methodological difference is that Parallax uses an MLP classifier with a fixed 0.85 probability threshold, while funcscreen uses logistic regression with 5-fold stratified cross-validation — the latter providing the statistical rigour required for a publishable benchmark claim.
+
+**ProteinRisk** (Varsity Hackathon 2026; github.com/PixelSergey/ProteinRisk) addresses a complementary threat vector. Rather than detecting functional similarity to known hazards, it asks two prior questions: (1) is this sequence consistent with its claimed organism of origin, and (2) does it contain known dangerous structural motifs — specifically HEXXH zinc-binding metalloprotease patterns (directly relevant to Botulinum neurotoxin type A, one of the three toxins in the funcscreen benchmark) and pore-forming protein domains. This organism verification layer addresses a mislabelling attack vector that embedding-based evasion detection does not cover: a redesigned toxin submitted with a false organism label would evade BLAST, but ProteinRisk's Stage 1 cross-checks internal sequence consistency against claimed taxonomy. The limitation of motif-based detection — that it can only flag what has been explicitly defined — is the precise gap that funcscreen and Parallax address.
+
+**A complete screening architecture.** The three projects together suggest a three-layer stack that no single tool currently implements end-to-end: (1) organism authenticity verification (ProteinRisk Stage 1), (2) known motif detection (ProteinRisk Stage 2), and (3) embedding-based functional similarity detection for AI-redesigned evasion variants (funcscreen, Parallax). Integration of these layers into a single production screening pipeline is a direct next step for the field.
+
+---
+
+## 5. Discussion
+
+### 5.1 Why BLAST Fails in the Twilight Zone
 
 BLAST operates on local k-mer matching. When ProteinMPNN redesigns a sequence at T = 0.4, it replaces individual amino acid "words" with chemically similar alternatives that maintain the backbone geometry. The structural "syntax" of the fold is preserved — the RMSD and TM-score remain high — but the string representation becomes unrecognisable to any tool that operates on character identity. This is not a bug in BLAST; it is the fundamental limit of alignment-based methods when applied to proteins with diverged sequence but conserved structure.
 
 This result replicates and quantifies the theoretical vulnerability identified by Wittmann et al. (2024). Our contribution is to demonstrate it empirically across three mechanistically distinct toxin classes and to show that the gap is closed, not merely reduced, by embedding-based classification.
 
-### 4.2 Why ESM-2 Embeddings Succeed
+### 5.2 Why ESM-2 Embeddings Succeed
 
 ESM-2 was trained on evolutionary sequences using a masked language modelling objective, causing it to learn representations that reflect structural and functional conservation rather than raw sequence identity (Lin et al., 2023). Proteins that occupy the same structural fold cluster closely in ESM-2 embedding space even when sequence identity is low — the embedding encodes evolutionary and biophysical constraints that sequence strings do not. This makes the mean-pooled embedding a natural representation for function-based threat detection.
 
@@ -142,7 +156,7 @@ Variant drift analysis shows that stealth variants remain close to their wildtyp
 
 We note that the 16:155 class imbalance means precision is computed over approximately three negative test examples per CV fold. Recall (1.00 ± 0.00) is the more robustly estimated metric and is the operationally relevant quantity for a biosecurity screening context, where missed threats (false negatives) are the primary risk.
 
-### 4.3 Implications for ISO 20688-2 and Synthesis Screening
+### 5.3 Implications for ISO 20688-2 and Synthesis Screening
 
 The DSSC ISO 20688-2 Implementation Guide currently requires DNA synthesis providers to screen orders against known sequences using alignment-based tools. Our results demonstrate that this requirement is bypassable using publicly available, open-source protein design software running on commodity hardware. The bypass does not require access to controlled databases or expert knowledge beyond the ability to run ProteinMPNN.
 
@@ -154,7 +168,7 @@ We make three specific recommendations for updated screening standards:
 
 3. **TM-score integration.** Where structural prediction is feasible (ESMFold via API), TM-score against known structures provides an additional, BLAST-independent signal for functional viability. Variants with TM-score > 0.5 against any BSAT entry should be flagged regardless of sequence identity.
 
-### 4.4 Limitations
+### 5.4 Limitations
 
 Several limitations of this study should be noted.
 
@@ -168,7 +182,7 @@ Several limitations of this study should be noted.
 
 ---
 
-## 5. Conclusion
+## 6. Conclusion
 
 AI-driven protein design has made sequence-only biosecurity screening insufficient for the threat landscape it is meant to address. Using ProteinMPNN to generate stealth variants of three proxy toxins, we demonstrate a 100% BLAST failure rate in the primary evasion tier (< 20% sequence identity) and show that ESM-2 embedding-based classification closes this gap entirely in our benchmark dataset. The TEVV framework and accompanying code provide a reproducible evaluation protocol for embedding-based biosecurity screening. We call on DNA synthesis providers and standards bodies to incorporate function-based detection into the next revision of the DSSC ISO 20688-2 Implementation Guide.
 
@@ -178,17 +192,21 @@ AI-driven protein design has made sequence-only biosecurity screening insufficie
 
 1. Dauparas, J., Anishchenko, I., Bennett, N., Bai, H., Ragotte, R.J., Milles, L.F., … Baker, D. (2022). Robust deep learning–based protein sequence design using ProteinMPNN. *Science*, 378(6615), 49–56. https://doi.org/10.1126/science.add2187
 
-2. Ikonomova, S.P., Wittmann, B.J., Piorino, F., Ross, D.J., Schaffter, S.W., Vasilyeva, O., Horvitz, E., Diggans, J., Strychalski, E.A., Lin-Gibson, S., & Taghon, G.J. (2025). Experimental Evaluation of AI-Driven Protein Design Risks Using Safe Biological Proxies. *bioRxiv* [Preprint]. https://doi.org/10.1101/2025.05.15.654077
+2. Ikonomova, S., [et al.] (2026). [TEVV framework preprint title]. *bioRxiv* [Preprint]. [DOI — insert when confirmed]
 
 3. Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., … Rives, A. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. *Science*, 379(6637), 1123–1130. https://doi.org/10.1126/science.ade2574
 
-4. Rost, B. (1999). Twilight zone of protein sequence alignments. *Protein Engineering*, 12(2), 85–94. https://doi.org/10.1093/protein/12.2.85
+4. Hao, L., Chen, Y., & Jain, S. (2026). Parallax: Embedding-based biosecurity screening for AI-redesigned proteins. Oxbridge Varsity Hackathon 2026, University of Cambridge. https://github.com/swarnim-j/parallax
 
-5. Wittmann, B.J., Alexanian, T., Bartling, C., Beal, J., Clore, A., Diggans, J., Flyangolts, K., Gemler, B.T., Mitchell, T., Murphy, S.T., Wheeler, N.E., & Horvitz, E. (2025). Strengthening nucleic acid biosecurity screening against generative protein design tools. *Science*, 387(6730). https://doi.org/10.1126/science.adu8578 
+5. Parsons, J., Torubarov, T., Ichtchenko, S., & Bonato, M. (2026). ProteinRisk: A protein risk assessment tool. Oxbridge Varsity Hackathon 2026, University of Oxford. https://github.com/PixelSergey/ProteinRisk
 
-6. Xu, J., & Zhang, Y. (2010). How significant is a protein structure similarity with TM-score = 0.5? *Bioinformatics*, 26(7), 889–895. https://doi.org/10.1093/bioinformatics/btq066
+6. Rost, B. (1999). Twilight zone of protein sequence alignments. *Protein Engineering*, 12(2), 85–94. https://doi.org/10.1093/protein/12.2.85
 
-7. DSSC (2024). *ISO 20688-2 Implementation Guide for DNA Synthesis Screening*. DNA Security Screening Consortium. https://www.dna-security.org 
+7. Wittmann, B.J., Alexanian, T., Bartling, C., Beal, J., Clore, A., Diggans, J., Flyangolts, K., Gemler, B.T., Mitchell, T., Murphy, S.T., Wheeler, N.E., & Horvitz, E. (2025). Strengthening nucleic acid biosecurity screening against generative protein design tools. *Science*, 387(6730). https://doi.org/10.1126/science.adu8578
+
+8. Xu, J., & Zhang, Y. (2010). How significant is a protein structure similarity with TM-score = 0.5? *Bioinformatics*, 26(7), 889–895. https://doi.org/10.1093/bioinformatics/btq066
+
+9. DSSC (2024). *ISO 20688-2 Implementation Guide for DNA Synthesis Screening*. DNA Security Screening Consortium. https://www.dna-security.org [insert correct URL]
 
 ---
 
