@@ -1,0 +1,8213 @@
+[
+  {
+    "accession": "P0CG19",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 228
+  },
+  {
+    "accession": "P0A8M3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 642
+  },
+  {
+    "accession": "P0A6Z3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 624
+  },
+  {
+    "accession": "P0AGM7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 429
+  },
+  {
+    "accession": "P0A786",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 311
+  },
+  {
+    "accession": "P0A8N5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 505
+  },
+  {
+    "accession": "P02359",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 179
+  },
+  {
+    "accession": "P28861",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 248
+  },
+  {
+    "accession": "P0A8T7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 1407
+  },
+  {
+    "accession": "P06968",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 152
+  },
+  {
+    "accession": "P0A9M0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 784
+  },
+  {
+    "accession": "P0AA78",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 432
+  },
+  {
+    "accession": "P0AAE0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 470
+  },
+  {
+    "accession": "P30958",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 1148
+  },
+  {
+    "accession": "P0AG30",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 419
+  },
+  {
+    "accession": "P0A7E9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 241
+  },
+  {
+    "accession": "P0A7R1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 149
+  },
+  {
+    "accession": "P0CE48",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 394
+  },
+  {
+    "accession": "P30014",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 215
+  },
+  {
+    "accession": "P39831",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 248
+  },
+  {
+    "accession": "P0ACB2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 324
+  },
+  {
+    "accession": "P03959",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 557
+  },
+  {
+    "accession": "P77211",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 457
+  },
+  {
+    "accession": "P0A8Y1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 225
+  },
+  {
+    "accession": "P02918",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 850
+  },
+  {
+    "accession": "P0AEP9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 499
+  },
+  {
+    "accession": "P39277",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 418
+  },
+  {
+    "accession": "P33225",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 848
+  },
+  {
+    "accession": "P38097",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 1105
+  },
+  {
+    "accession": "P30131",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 750
+  },
+  {
+    "accession": "P0AEM6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 239
+  },
+  {
+    "accession": "P0C0V0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 474
+  },
+  {
+    "accession": "P32662",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 252
+  },
+  {
+    "accession": "P0A6M8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 704
+  },
+  {
+    "accession": "P76055",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 311
+  },
+  {
+    "accession": "P06974",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 334
+  },
+  {
+    "accession": "P0ABU7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 244
+  },
+  {
+    "accession": "P0A855",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 430
+  },
+  {
+    "accession": "P33022",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 313
+  },
+  {
+    "accession": "P0AG99",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 110
+  },
+  {
+    "accession": "P0A7R9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 129
+  },
+  {
+    "accession": "P31224",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 1049
+  },
+  {
+    "accession": "P0AGE4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 414
+  },
+  {
+    "accession": "P15067",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 657
+  },
+  {
+    "accession": "P0A9G6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 434
+  },
+  {
+    "accession": "P0AFG6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 405
+  },
+  {
+    "accession": "P0AFI7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 218
+  },
+  {
+    "accession": "P05804",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 603
+  },
+  {
+    "accession": "P15029",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 318
+  },
+  {
+    "accession": "P12281",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 411
+  },
+  {
+    "accession": "P0A9T0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 410
+  },
+  {
+    "accession": "P0AAM1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 235
+  },
+  {
+    "accession": "P0AC69",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 115
+  },
+  {
+    "accession": "Q06065",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 461
+  },
+  {
+    "accession": "P0A754",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 176
+  },
+  {
+    "accession": "P25516",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 891
+  },
+  {
+    "accession": "P77589",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 403
+  },
+  {
+    "accession": "P0AEP7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 593
+  },
+  {
+    "accession": "P0AD70",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 385
+  },
+  {
+    "accession": "P0A729",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 194
+  },
+  {
+    "accession": "P17169",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 609
+  },
+  {
+    "accession": "P0A7S3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 124
+  },
+  {
+    "accession": "P0A6F5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 548
+  },
+  {
+    "accession": "P0C0L7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 500
+  },
+  {
+    "accession": "P00903",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 187
+  },
+  {
+    "accession": "P0AAG0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 327
+  },
+  {
+    "accession": "Q46857",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 275
+  },
+  {
+    "accession": "P21177",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 729
+  },
+  {
+    "accession": "P0A7Z0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 219
+  },
+  {
+    "accession": "P0AAI5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 413
+  },
+  {
+    "accession": "P0AF32",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 226
+  },
+  {
+    "accession": "P77348",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 537
+  },
+  {
+    "accession": "P09148",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 348
+  },
+  {
+    "accession": "P0A9Q7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 891
+  },
+  {
+    "accession": "P0A9Q9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 367
+  },
+  {
+    "accession": "P21165",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 443
+  },
+  {
+    "accession": "P07013",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 104
+  },
+  {
+    "accession": "P30749",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 150
+  },
+  {
+    "accession": "P0AEG4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 208
+  },
+  {
+    "accession": "P03960",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 682
+  },
+  {
+    "accession": "P0ACB0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 471
+  },
+  {
+    "accession": "P38489",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 217
+  },
+  {
+    "accession": "P0A9D2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 201
+  },
+  {
+    "accession": "P0ABD3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 158
+  },
+  {
+    "accession": "P0A6A0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 546
+  },
+  {
+    "accession": "P0A9Y6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 69
+  },
+  {
+    "accession": "P0ABD8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 156
+  },
+  {
+    "accession": "P08192",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 422
+  },
+  {
+    "accession": "P0A962",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 338
+  },
+  {
+    "accession": "P17993",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 240
+  },
+  {
+    "accession": "P63020",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 191
+  },
+  {
+    "accession": "P27830",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 355
+  },
+  {
+    "accession": "P17846",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 570
+  },
+  {
+    "accession": "P0AAJ5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 300
+  },
+  {
+    "accession": "P0AAX8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 306
+  },
+  {
+    "accession": "P0AAD8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 443
+  },
+  {
+    "accession": "P0A998",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 165
+  },
+  {
+    "accession": "P0AGE9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 289
+  },
+  {
+    "accession": "P33371",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 315
+  },
+  {
+    "accession": "P0A7D1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 194
+  },
+  {
+    "accession": "P36672",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 473
+  },
+  {
+    "accession": "P0A6U3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 629
+  },
+  {
+    "accession": "P0A9P6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 629
+  },
+  {
+    "accession": "P04982",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 139
+  },
+  {
+    "accession": "P12998",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 384
+  },
+  {
+    "accession": "P0A993",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 332
+  },
+  {
+    "accession": "P0AGE0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 178
+  },
+  {
+    "accession": "P00946",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 391
+  },
+  {
+    "accession": "P0A6F9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 97
+  },
+  {
+    "accession": "P0A948",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 194
+  },
+  {
+    "accession": "P0A8G0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 610
+  },
+  {
+    "accession": "P0ABP8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 239
+  },
+  {
+    "accession": "P0A6D0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 156
+  },
+  {
+    "accession": "P0AGG0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 325
+  },
+  {
+    "accession": "P0ABH0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 420
+  },
+  {
+    "accession": "P09147",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 338
+  },
+  {
+    "accession": "P37769",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 253
+  },
+  {
+    "accession": "P02921",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 473
+  },
+  {
+    "accession": "P67603",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 103
+  },
+  {
+    "accession": "P0AGB0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 322
+  },
+  {
+    "accession": "P33650",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 773
+  },
+  {
+    "accession": "P61889",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 312
+  },
+  {
+    "accession": "P0A9K7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 241
+  },
+  {
+    "accession": "P77243",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 483
+  },
+  {
+    "accession": "P24228",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 477
+  },
+  {
+    "accession": "P0AEV1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 337
+  },
+  {
+    "accession": "P04993",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 608
+  },
+  {
+    "accession": "P04805",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 471
+  },
+  {
+    "accession": "P05194",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 252
+  },
+  {
+    "accession": "P0AGF2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 147
+  },
+  {
+    "accession": "P0A940",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 810
+  },
+  {
+    "accession": "P40874",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 372
+  },
+  {
+    "accession": "P00968",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 1073
+  },
+  {
+    "accession": "P0A6M4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 145
+  },
+  {
+    "accession": "P0AFD1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 166
+  },
+  {
+    "accession": "P0AFP6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 247
+  },
+  {
+    "accession": "P0AD68",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 588
+  },
+  {
+    "accession": "P0A812",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 336
+  },
+  {
+    "accession": "P16688",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 281
+  },
+  {
+    "accession": "P0AEZ3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 270
+  },
+  {
+    "accession": "P0AFS3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 240
+  },
+  {
+    "accession": "P0A9Q5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 304
+  },
+  {
+    "accession": "P76194",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 138
+  },
+  {
+    "accession": "P69054",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 129
+  },
+  {
+    "accession": "P0AET2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 108
+  },
+  {
+    "accession": "P28632",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 137
+  },
+  {
+    "accession": "P0AFT2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 222
+  },
+  {
+    "accession": "P0ABS8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 76
+  },
+  {
+    "accession": "P75960",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 279
+  },
+  {
+    "accession": "P09546",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 1320
+  },
+  {
+    "accession": "P0AES9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 110
+  },
+  {
+    "accession": "P02925",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 296
+  },
+  {
+    "accession": "P05042",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 467
+  },
+  {
+    "accession": "P0AD65",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 633
+  },
+  {
+    "accession": "P06722",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 229
+  },
+  {
+    "accession": "P0AEM9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 266
+  },
+  {
+    "accession": "P77544",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 214
+  },
+  {
+    "accession": "P76469",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 267
+  },
+  {
+    "accession": "P07658",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 715
+  },
+  {
+    "accession": "P77754",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 161
+  },
+  {
+    "accession": "P0AG24",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 702
+  },
+  {
+    "accession": "P26616",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 565
+  },
+  {
+    "accession": "P0A8S9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 116
+  },
+  {
+    "accession": "P0A9G8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 262
+  },
+  {
+    "accession": "P22564",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 304
+  },
+  {
+    "accession": "P25745",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 368
+  },
+  {
+    "accession": "P0AAD6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 429
+  },
+  {
+    "accession": "P04693",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 397
+  },
+  {
+    "accession": "P0A7A7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 807
+  },
+  {
+    "accession": "P0A8X0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 183
+  },
+  {
+    "accession": "P76387",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 720
+  },
+  {
+    "accession": "P0A6L2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 292
+  },
+  {
+    "accession": "P0A912",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 173
+  },
+  {
+    "accession": "P0AEN4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 121
+  },
+  {
+    "accession": "P46849",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 338
+  },
+  {
+    "accession": "P16659",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 572
+  },
+  {
+    "accession": "P30745",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 329
+  },
+  {
+    "accession": "P0AFE4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 100
+  },
+  {
+    "accession": "P0AAH0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 257
+  },
+  {
+    "accession": "P0A817",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 384
+  },
+  {
+    "accession": "P0AAP3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 91
+  },
+  {
+    "accession": "P0AG07",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 225
+  },
+  {
+    "accession": "P0AAM7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 82
+  },
+  {
+    "accession": "P23930",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 512
+  },
+  {
+    "accession": "P08839",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 575
+  },
+  {
+    "accession": "P76632",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 160
+  },
+  {
+    "accession": "P0AEG1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 300
+  },
+  {
+    "accession": "P0AE12",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 484
+  },
+  {
+    "accession": "P37624",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 911
+  },
+  {
+    "accession": "P0A6N4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 188
+  },
+  {
+    "accession": "P0A7J0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 217
+  },
+  {
+    "accession": "P23003",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 366
+  },
+  {
+    "accession": "P0AAM3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 90
+  },
+  {
+    "accession": "P67095",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 184
+  },
+  {
+    "accession": "P45541",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 276
+  },
+  {
+    "accession": "P0A8M6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 109
+  },
+  {
+    "accession": "P11551",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 438
+  },
+  {
+    "accession": "P33018",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 278
+  },
+  {
+    "accession": "P10906",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 281
+  },
+  {
+    "accession": "P0AC38",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 478
+  },
+  {
+    "accession": "P05852",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 337
+  },
+  {
+    "accession": "P31466",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 445
+  },
+  {
+    "accession": "P0ACN4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 271
+  },
+  {
+    "accession": "P0A7F9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 356
+  },
+  {
+    "accession": "P0A8N7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 325
+  },
+  {
+    "accession": "P0AC30",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 352
+  },
+  {
+    "accession": "P77366",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 219
+  },
+  {
+    "accession": "P10378",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 536
+  },
+  {
+    "accession": "P0A884",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 264
+  },
+  {
+    "accession": "P37313",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 334
+  },
+  {
+    "accession": "P0ACG1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 134
+  },
+  {
+    "accession": "P0ABU9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 230
+  },
+  {
+    "accession": "P08394",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 1180
+  },
+  {
+    "accession": "P31979",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 445
+  },
+  {
+    "accession": "P0AF52",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 449
+  },
+  {
+    "accession": "P0A9R7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 222
+  },
+  {
+    "accession": "P0A7B3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 292
+  },
+  {
+    "accession": "P0ABB8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 898
+  },
+  {
+    "accession": "P0AG80",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 438
+  },
+  {
+    "accession": "P07604",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 513
+  },
+  {
+    "accession": "Q46899",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 363
+  },
+  {
+    "accession": "P10907",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 356
+  },
+  {
+    "accession": "P0ADL1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 396
+  },
+  {
+    "accession": "P0AFY6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 406
+  },
+  {
+    "accession": "P0A9W3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 555
+  },
+  {
+    "accession": "P32143",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 298
+  },
+  {
+    "accession": "P0AA93",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 565
+  },
+  {
+    "accession": "P0ABK5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 323
+  },
+  {
+    "accession": "P0A7T7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 75
+  },
+  {
+    "accession": "P0AA43",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 231
+  },
+  {
+    "accession": "P0AE67",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 129
+  },
+  {
+    "accession": "P11350",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 225
+  },
+  {
+    "accession": "P37025",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 176
+  },
+  {
+    "accession": "P0A746",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 137
+  },
+  {
+    "accession": "P0ABI8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 663
+  },
+  {
+    "accession": "P27434",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 337
+  },
+  {
+    "accession": "P39176",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 310
+  },
+  {
+    "accession": "P25552",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 494
+  },
+  {
+    "accession": "P0A7S9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 118
+  },
+  {
+    "accession": "P0AG16",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 505
+  },
+  {
+    "accession": "P0AFY8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 181
+  },
+  {
+    "accession": "P0AFU0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 364
+  },
+  {
+    "accession": "P32695",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 345
+  },
+  {
+    "accession": "P0AAJ3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 294
+  },
+  {
+    "accession": "P0AGA2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 443
+  },
+  {
+    "accession": "P0C0S1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 286
+  },
+  {
+    "accession": "P0ADY1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 623
+  },
+  {
+    "accession": "P0ABZ1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 331
+  },
+  {
+    "accession": "P77395",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 284
+  },
+  {
+    "accession": "P0AC78",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 367
+  },
+  {
+    "accession": "P0ADC1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 193
+  },
+  {
+    "accession": "P66817",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 196
+  },
+  {
+    "accession": "P0A8H6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 169
+  },
+  {
+    "accession": "P09835",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 500
+  },
+  {
+    "accession": "P68739",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 223
+  },
+  {
+    "accession": "P09099",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 484
+  },
+  {
+    "accession": "P0A9J8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 386
+  },
+  {
+    "accession": "P0AEN8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 140
+  },
+  {
+    "accession": "P0A6Y8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 638
+  },
+  {
+    "accession": "P0A8I5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 239
+  },
+  {
+    "accession": "P14294",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 653
+  },
+  {
+    "accession": "P09831",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 1486
+  },
+  {
+    "accession": "P0AC47",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 244
+  },
+  {
+    "accession": "P0A7E1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 336
+  },
+  {
+    "accession": "P0A7M9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 70
+  },
+  {
+    "accession": "P33607",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 613
+  },
+  {
+    "accession": "P64534",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 112
+  },
+  {
+    "accession": "P32684",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 290
+  },
+  {
+    "accession": "P00861",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 420
+  },
+  {
+    "accession": "P0A710",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 179
+  },
+  {
+    "accession": "P0C0K3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 328
+  },
+  {
+    "accession": "P0AB98",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 271
+  },
+  {
+    "accession": "P00803",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 324
+  },
+  {
+    "accession": "P0A7V3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 233
+  },
+  {
+    "accession": "P0A698",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 940
+  },
+  {
+    "accession": "P07913",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 341
+  },
+  {
+    "accession": "P0A7G2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 133
+  },
+  {
+    "accession": "P0A9L3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 206
+  },
+  {
+    "accession": "P76278",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 290
+  },
+  {
+    "accession": "P37647",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 309
+  },
+  {
+    "accession": "P0A809",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 203
+  },
+  {
+    "accession": "P0A7W7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 130
+  },
+  {
+    "accession": "P69795",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 106
+  },
+  {
+    "accession": "P0ABA6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 287
+  },
+  {
+    "accession": "P39177",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 142
+  },
+  {
+    "accession": "P0A6T5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 222
+  },
+  {
+    "accession": "P0AA99",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 246
+  },
+  {
+    "accession": "P0A7Z4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 329
+  },
+  {
+    "accession": "P0ADR8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 454
+  },
+  {
+    "accession": "P08956",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 1170
+  },
+  {
+    "accession": "P0ADP2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 155
+  },
+  {
+    "accession": "P0C037",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 94
+  },
+  {
+    "accession": "P0A6Z6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 133
+  },
+  {
+    "accession": "P06616",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 301
+  },
+  {
+    "accession": "P02931",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 362
+  },
+  {
+    "accession": "P39405",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 262
+  },
+  {
+    "accession": "P0DTT0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 607
+  },
+  {
+    "accession": "Q46898",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 224
+  },
+  {
+    "accession": "P00393",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 434
+  },
+  {
+    "accession": "P69490",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 159
+  },
+  {
+    "accession": "P75913",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 312
+  },
+  {
+    "accession": "P0A9E0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 292
+  },
+  {
+    "accession": "P22634",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 285
+  },
+  {
+    "accession": "P0A6B7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 404
+  },
+  {
+    "accession": "P0AFI0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 564
+  },
+  {
+    "accession": "P0A9H3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 715
+  },
+  {
+    "accession": "P03023",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 360
+  },
+  {
+    "accession": "P0AGD3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 193
+  },
+  {
+    "accession": "P0A794",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 243
+  },
+  {
+    "accession": "P60624",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 104
+  },
+  {
+    "accession": "P0AAC8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 107
+  },
+  {
+    "accession": "P46022",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 242
+  },
+  {
+    "accession": "P0ABJ9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 522
+  },
+  {
+    "accession": "P00448",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 206
+  },
+  {
+    "accession": "P0AEL0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 211
+  },
+  {
+    "accession": "P0A991",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 350
+  },
+  {
+    "accession": "P32156",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 104
+  },
+  {
+    "accession": "P0ABL3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 149
+  },
+  {
+    "accession": "P11667",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 211
+  },
+  {
+    "accession": "P0AEE5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 332
+  },
+  {
+    "accession": "P05825",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 746
+  },
+  {
+    "accession": "P0A9M8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 714
+  },
+  {
+    "accession": "P0AC16",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 122
+  },
+  {
+    "accession": "P0A7C2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 202
+  },
+  {
+    "accession": "P00963",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 330
+  },
+  {
+    "accession": "P0AEI1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 474
+  },
+  {
+    "accession": "P69212",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 121
+  },
+  {
+    "accession": "P37001",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 186
+  },
+  {
+    "accession": "P0A9N8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 154
+  },
+  {
+    "accession": "P23847",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 535
+  },
+  {
+    "accession": "P24193",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 336
+  },
+  {
+    "accession": "P09323",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 648
+  },
+  {
+    "accession": "Q46893",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 236
+  },
+  {
+    "accession": "P0AGE6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 188
+  },
+  {
+    "accession": "P0AEJ2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 391
+  },
+  {
+    "accession": "P0ABI4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 316
+  },
+  {
+    "accession": "P0A964",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 167
+  },
+  {
+    "accession": "P0A7B1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 688
+  },
+  {
+    "accession": "P0A715",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 284
+  },
+  {
+    "accession": "P39838",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 890
+  },
+  {
+    "accession": "P60844",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 231
+  },
+  {
+    "accession": "P0A8L1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 430
+  },
+  {
+    "accession": "P0A8Q0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 131
+  },
+  {
+    "accession": "P0ABG4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 414
+  },
+  {
+    "accession": "P26648",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 470
+  },
+  {
+    "accession": "P77625",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 216
+  },
+  {
+    "accession": "P31806",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 515
+  },
+  {
+    "accession": "P77649",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 478
+  },
+  {
+    "accession": "P0AF67",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 153
+  },
+  {
+    "accession": "P75876",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 396
+  },
+  {
+    "accession": "P0AFM2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 330
+  },
+  {
+    "accession": "P0AED7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 375
+  },
+  {
+    "accession": "P0C7L2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 401
+  },
+  {
+    "accession": "P0AC81",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 135
+  },
+  {
+    "accession": "P0A8Q3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 119
+  },
+  {
+    "accession": "P33916",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 529
+  },
+  {
+    "accession": "P06134",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 354
+  },
+  {
+    "accession": "P25888",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 454
+  },
+  {
+    "accession": "P45577",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 232
+  },
+  {
+    "accession": "P07014",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 238
+  },
+  {
+    "accession": "P0A832",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 160
+  },
+  {
+    "accession": "P0A8G6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 198
+  },
+  {
+    "accession": "P0A7N4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 57
+  },
+  {
+    "accession": "P77214",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 110
+  },
+  {
+    "accession": "P0ABV6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 142
+  },
+  {
+    "accession": "P09377",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 278
+  },
+  {
+    "accession": "P0AFB5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 349
+  },
+  {
+    "accession": "P27125",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 344
+  },
+  {
+    "accession": "P0C0T5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 274
+  },
+  {
+    "accession": "P0AG90",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 615
+  },
+  {
+    "accession": "P0ACD4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 128
+  },
+  {
+    "accession": "P08506",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 400
+  },
+  {
+    "accession": "P0A6L0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 259
+  },
+  {
+    "accession": "P0AF24",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 250
+  },
+  {
+    "accession": "P76459",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 216
+  },
+  {
+    "accession": "P0A6Q6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 151
+  },
+  {
+    "accession": "P12008",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 361
+  },
+  {
+    "accession": "P0AFF6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 495
+  },
+  {
+    "accession": "P0AER0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 281
+  },
+  {
+    "accession": "P36566",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 261
+  },
+  {
+    "accession": "P0A9S1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 382
+  },
+  {
+    "accession": "P10902",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 540
+  },
+  {
+    "accession": "P0AC53",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 491
+  },
+  {
+    "accession": "P75831",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 648
+  },
+  {
+    "accession": "P0A9S7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 255
+  },
+  {
+    "accession": "P0A9X9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 70
+  },
+  {
+    "accession": "P00804",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 164
+  },
+  {
+    "accession": "P0A6E1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 174
+  },
+  {
+    "accession": "P06960",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 334
+  },
+  {
+    "accession": "P0A6G7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 207
+  },
+  {
+    "accession": "P0AFA7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 513
+  },
+  {
+    "accession": "P09980",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 673
+  },
+  {
+    "accession": "P0ABU2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 363
+  },
+  {
+    "accession": "P17411",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 450
+  },
+  {
+    "accession": "P21888",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 461
+  },
+  {
+    "accession": "P0A9H7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 382
+  },
+  {
+    "accession": "P21151",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 387
+  },
+  {
+    "accession": "P05041",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 453
+  },
+  {
+    "accession": "P0AE82",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 457
+  },
+  {
+    "accession": "P0ACG8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 133
+  },
+  {
+    "accession": "P0A759",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 266
+  },
+  {
+    "accession": "P0AG18",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 169
+  },
+  {
+    "accession": "P0ACB4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 181
+  },
+  {
+    "accession": "P0AFZ3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 165
+  },
+  {
+    "accession": "P0A9C0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 542
+  },
+  {
+    "accession": "P0ACC3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 114
+  },
+  {
+    "accession": "P08191",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 300
+  },
+  {
+    "accession": "P06992",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 273
+  },
+  {
+    "accession": "P0A6A8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 78
+  },
+  {
+    "accession": "P0A799",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 387
+  },
+  {
+    "accession": "P0AAN3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 290
+  },
+  {
+    "accession": "P77425",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 411
+  },
+  {
+    "accession": "P19318",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 514
+  },
+  {
+    "accession": "P02916",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 514
+  },
+  {
+    "accession": "P04395",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 282
+  },
+  {
+    "accession": "P0ABC7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 419
+  },
+  {
+    "accession": "P0AG67",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 557
+  },
+  {
+    "accession": "P76334",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 100
+  },
+  {
+    "accession": "P0A6L4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 297
+  },
+  {
+    "accession": "P23256",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 390
+  },
+  {
+    "accession": "P0A7U3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 92
+  },
+  {
+    "accession": "P75864",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 702
+  },
+  {
+    "accession": "P0A7X6",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 182
+  },
+  {
+    "accession": "P06988",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 434
+  },
+  {
+    "accession": "P0AA16",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 239
+  },
+  {
+    "accession": "P0AFA2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 598
+  },
+  {
+    "accession": "P00509",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 396
+  },
+  {
+    "accession": "P15047",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 248
+  },
+  {
+    "accession": "P0ABT2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 167
+  },
+  {
+    "accession": "P17854",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 244
+  },
+  {
+    "accession": "P0A749",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 419
+  },
+  {
+    "accession": "P0AG74",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 120
+  },
+  {
+    "accession": "P0C0R7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 209
+  },
+  {
+    "accession": "P14175",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 400
+  },
+  {
+    "accession": "P0A8Y3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 199
+  },
+  {
+    "accession": "P0AC00",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 340
+  },
+  {
+    "accession": "P0A988",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 366
+  },
+  {
+    "accession": "P0AES4",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 875
+  },
+  {
+    "accession": "P14375",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 441
+  },
+  {
+    "accession": "P0AG96",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 127
+  },
+  {
+    "accession": "P0A712",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 327
+  },
+  {
+    "accession": "P0A9A9",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 148
+  },
+  {
+    "accession": "P0AA10",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 142
+  },
+  {
+    "accession": "P0A8W0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 263
+  },
+  {
+    "accession": "P00888",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 356
+  },
+  {
+    "accession": "P0ACC1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 277
+  },
+  {
+    "accession": "P0AA25",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 109
+  },
+  {
+    "accession": "P0AFJ7",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 499
+  },
+  {
+    "accession": "P77774",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 392
+  },
+  {
+    "accession": "P0AC33",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 548
+  },
+  {
+    "accession": "P30844",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 363
+  },
+  {
+    "accession": "P0AGD1",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 173
+  },
+  {
+    "accession": "P0A790",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 126
+  },
+  {
+    "accession": "P06961",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 412
+  },
+  {
+    "accession": "P0A7K2",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 121
+  },
+  {
+    "accession": "P0AB74",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 286
+  },
+  {
+    "accession": "P76576",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 206
+  },
+  {
+    "accession": "P04152",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 422
+  },
+  {
+    "accession": "Q46925",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 401
+  },
+  {
+    "accession": "P46883",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 757
+  },
+  {
+    "accession": "P0ACY3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 644
+  },
+  {
+    "accession": "P0AC02",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 245
+  },
+  {
+    "accession": "P0A738",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 161
+  },
+  {
+    "accession": "P04825",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 870
+  },
+  {
+    "accession": "P04995",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 475
+  },
+  {
+    "accession": "P31135",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 317
+  },
+  {
+    "accession": "P80668",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 499
+  },
+  {
+    "accession": "P0A6V5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 108
+  },
+  {
+    "accession": "P76113",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 345
+  },
+  {
+    "accession": "P0AEE8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 278
+  },
+  {
+    "accession": "P11349",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 512
+  },
+  {
+    "accession": "P0A6A3",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 400
+  },
+  {
+    "accession": "P0A763",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 143
+  },
+  {
+    "accession": "P0A879",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 397
+  },
+  {
+    "accession": "P0A8M0",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 466
+  },
+  {
+    "accession": "P0AC44",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 115
+  },
+  {
+    "accession": "P0AE22",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 237
+  },
+  {
+    "accession": "P0AFI5",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 310
+  },
+  {
+    "accession": "P0A894",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 284
+  },
+  {
+    "accession": "P04079",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 525
+  },
+  {
+    "accession": "P0A7B8",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 176
+  },
+  {
+    "accession": "P05824",
+    "proteome": "k12",
+    "organism": "Escherichia coli K-12",
+    "label": 0,
+    "seq_length": 553
+  },
+  {
+    "accession": "O60635",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 241
+  },
+  {
+    "accession": "O14640",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 695
+  },
+  {
+    "accession": "P05452",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 202
+  },
+  {
+    "accession": "O60884",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 412
+  },
+  {
+    "accession": "O60266",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1144
+  },
+  {
+    "accession": "O15232",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 486
+  },
+  {
+    "accession": "O75821",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 320
+  },
+  {
+    "accession": "O95298",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 119
+  },
+  {
+    "accession": "O43548",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 720
+  },
+  {
+    "accession": "A5PLL7",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 270
+  },
+  {
+    "accession": "P07492",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 148
+  },
+  {
+    "accession": "A2RU14",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 115
+  },
+  {
+    "accession": "P0C024",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 238
+  },
+  {
+    "accession": "P02649",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 317
+  },
+  {
+    "accession": "O75159",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 536
+  },
+  {
+    "accession": "P04626",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1255
+  },
+  {
+    "accession": "O96000",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 172
+  },
+  {
+    "accession": "P09525",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 319
+  },
+  {
+    "accession": "P05177",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 516
+  },
+  {
+    "accession": "O75648",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 421
+  },
+  {
+    "accession": "O00115",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 360
+  },
+  {
+    "accession": "O75072",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 461
+  },
+  {
+    "accession": "O00168",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 92
+  },
+  {
+    "accession": "P01909",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 254
+  },
+  {
+    "accession": "P00338",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 332
+  },
+  {
+    "accession": "O00453",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 97
+  },
+  {
+    "accession": "O75503",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 358
+  },
+  {
+    "accession": "O00329",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1044
+  },
+  {
+    "accession": "P06028",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 91
+  },
+  {
+    "accession": "P08887",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 468
+  },
+  {
+    "accession": "O00254",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 374
+  },
+  {
+    "accession": "O76027",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 345
+  },
+  {
+    "accession": "P04180",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 440
+  },
+  {
+    "accession": "O94993",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 753
+  },
+  {
+    "accession": "P08670",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 466
+  },
+  {
+    "accession": "O60519",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 120
+  },
+  {
+    "accession": "O75344",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 327
+  },
+  {
+    "accession": "O43581",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 403
+  },
+  {
+    "accession": "O75752",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 331
+  },
+  {
+    "accession": "P00846",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 226
+  },
+  {
+    "accession": "P07902",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 379
+  },
+  {
+    "accession": "O15541",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 343
+  },
+  {
+    "accession": "O75449",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 491
+  },
+  {
+    "accession": "O43854",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 480
+  },
+  {
+    "accession": "O95479",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 791
+  },
+  {
+    "accession": "O75956",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 126
+  },
+  {
+    "accession": "O00624",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 439
+  },
+  {
+    "accession": "O94901",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 785
+  },
+  {
+    "accession": "O00237",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 685
+  },
+  {
+    "accession": "A1L3X0",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 281
+  },
+  {
+    "accession": "P09603",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 554
+  },
+  {
+    "accession": "O00591",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 440
+  },
+  {
+    "accession": "O43763",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 284
+  },
+  {
+    "accession": "O14926",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 492
+  },
+  {
+    "accession": "P02774",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 474
+  },
+  {
+    "accession": "O77932",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 396
+  },
+  {
+    "accession": "O75367",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 369
+  },
+  {
+    "accession": "O00400",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 549
+  },
+  {
+    "accession": "O00622",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 381
+  },
+  {
+    "accession": "O95741",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 557
+  },
+  {
+    "accession": "O75781",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 387
+  },
+  {
+    "accession": "O14548",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 114
+  },
+  {
+    "accession": "P08637",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 254
+  },
+  {
+    "accession": "P09493",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 284
+  },
+  {
+    "accession": "O60814",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 126
+  },
+  {
+    "accession": "A1A4S6",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 786
+  },
+  {
+    "accession": "P09936",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 223
+  },
+  {
+    "accession": "O95782",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 977
+  },
+  {
+    "accession": "B6A8C7",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 271
+  },
+  {
+    "accession": "O43474",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 513
+  },
+  {
+    "accession": "O14994",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 580
+  },
+  {
+    "accession": "P01308",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 110
+  },
+  {
+    "accession": "P05787",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 483
+  },
+  {
+    "accession": "P01732",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 235
+  },
+  {
+    "accession": "B2RUY7",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 222
+  },
+  {
+    "accession": "O00712",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 420
+  },
+  {
+    "accession": "O00487",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 310
+  },
+  {
+    "accession": "O75618",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 318
+  },
+  {
+    "accession": "O75390",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 466
+  },
+  {
+    "accession": "O43868",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 658
+  },
+  {
+    "accession": "O43825",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 422
+  },
+  {
+    "accession": "O14967",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 610
+  },
+  {
+    "accession": "O95807",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 157
+  },
+  {
+    "accession": "O43264",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 779
+  },
+  {
+    "accession": "P01571",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 189
+  },
+  {
+    "accession": "O95470",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 568
+  },
+  {
+    "accession": "C9JLW8",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 97
+  },
+  {
+    "accession": "A6NI61",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 221
+  },
+  {
+    "accession": "O95571",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 254
+  },
+  {
+    "accession": "O60930",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 286
+  },
+  {
+    "accession": "O75319",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 330
+  },
+  {
+    "accession": "O60687",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 465
+  },
+  {
+    "accession": "A9UHW6",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 222
+  },
+  {
+    "accession": "O00330",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 501
+  },
+  {
+    "accession": "P05813",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 215
+  },
+  {
+    "accession": "O43761",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 229
+  },
+  {
+    "accession": "O75838",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 187
+  },
+  {
+    "accession": "O15540",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 132
+  },
+  {
+    "accession": "O14756",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 317
+  },
+  {
+    "accession": "P05451",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 166
+  },
+  {
+    "accession": "P00519",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1130
+  },
+  {
+    "accession": "O75952",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 493
+  },
+  {
+    "accession": "O95139",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 128
+  },
+  {
+    "accession": "O75558",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 287
+  },
+  {
+    "accession": "O14908",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 333
+  },
+  {
+    "accession": "O00322",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 258
+  },
+  {
+    "accession": "P08700",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 152
+  },
+  {
+    "accession": "P03999",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 345
+  },
+  {
+    "accession": "P02452",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1464
+  },
+  {
+    "accession": "O43826",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 429
+  },
+  {
+    "accession": "O75334",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1257
+  },
+  {
+    "accession": "A6NCS4",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 301
+  },
+  {
+    "accession": "O95447",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 670
+  },
+  {
+    "accession": "P02812",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 416
+  },
+  {
+    "accession": "O75554",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 376
+  },
+  {
+    "accession": "O95169",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 186
+  },
+  {
+    "accession": "O75594",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 196
+  },
+  {
+    "accession": "O43865",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 530
+  },
+  {
+    "accession": "O00478",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 584
+  },
+  {
+    "accession": "O95905",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 644
+  },
+  {
+    "accession": "O95977",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 384
+  },
+  {
+    "accession": "O96005",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 669
+  },
+  {
+    "accession": "O00159",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1063
+  },
+  {
+    "accession": "O14519",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 115
+  },
+  {
+    "accession": "A1L190",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 88
+  },
+  {
+    "accession": "P02786",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 760
+  },
+  {
+    "accession": "P09543",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 421
+  },
+  {
+    "accession": "P02771",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 609
+  },
+  {
+    "accession": "O95154",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 331
+  },
+  {
+    "accession": "O43913",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 435
+  },
+  {
+    "accession": "P01877",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 391
+  },
+  {
+    "accession": "O00560",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 298
+  },
+  {
+    "accession": "P09496",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 248
+  },
+  {
+    "accession": "O76074",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 875
+  },
+  {
+    "accession": "O14508",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 198
+  },
+  {
+    "accession": "O95777",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 96
+  },
+  {
+    "accession": "O43715",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 76
+  },
+  {
+    "accession": "O94768",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 372
+  },
+  {
+    "accession": "O15127",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 329
+  },
+  {
+    "accession": "O15297",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 605
+  },
+  {
+    "accession": "O43172",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 522
+  },
+  {
+    "accession": "O75683",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 361
+  },
+  {
+    "accession": "O43439",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 604
+  },
+  {
+    "accession": "P08172",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 466
+  },
+  {
+    "accession": "O00116",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 658
+  },
+  {
+    "accession": "P00374",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 187
+  },
+  {
+    "accession": "O43609",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 319
+  },
+  {
+    "accession": "O15067",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1338
+  },
+  {
+    "accession": "O95670",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 118
+  },
+  {
+    "accession": "O14957",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 56
+  },
+  {
+    "accession": "P04731",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 61
+  },
+  {
+    "accession": "O94762",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 991
+  },
+  {
+    "accession": "O14613",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 210
+  },
+  {
+    "accession": "O43395",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 683
+  },
+  {
+    "accession": "O75486",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 317
+  },
+  {
+    "accession": "A5D8V7",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 595
+  },
+  {
+    "accession": "O95881",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 172
+  },
+  {
+    "accession": "O95750",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 216
+  },
+  {
+    "accession": "P03915",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 603
+  },
+  {
+    "accession": "O15269",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 473
+  },
+  {
+    "accession": "O14618",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 274
+  },
+  {
+    "accession": "O75365",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 173
+  },
+  {
+    "accession": "O60235",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 418
+  },
+  {
+    "accession": "O75177",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 396
+  },
+  {
+    "accession": "O43556",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 437
+  },
+  {
+    "accession": "O95155",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1302
+  },
+  {
+    "accession": "P09668",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 335
+  },
+  {
+    "accession": "O43593",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1189
+  },
+  {
+    "accession": "P02748",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 559
+  },
+  {
+    "accession": "P07998",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 156
+  },
+  {
+    "accession": "P03951",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 625
+  },
+  {
+    "accession": "P09914",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 478
+  },
+  {
+    "accession": "P06865",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 529
+  },
+  {
+    "accession": "O00214",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 317
+  },
+  {
+    "accession": "O60938",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 352
+  },
+  {
+    "accession": "P01825",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 116
+  },
+  {
+    "accession": "O14757",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 476
+  },
+  {
+    "accession": "O43543",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 280
+  },
+  {
+    "accession": "O15520",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 208
+  },
+  {
+    "accession": "A1A519",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 330
+  },
+  {
+    "accession": "O15533",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 448
+  },
+  {
+    "accession": "O00762",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 179
+  },
+  {
+    "accession": "O75884",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 186
+  },
+  {
+    "accession": "P09544",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 360
+  },
+  {
+    "accession": "O43827",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 346
+  },
+  {
+    "accession": "P06756",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1048
+  },
+  {
+    "accession": "O14744",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 637
+  },
+  {
+    "accession": "P04080",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 98
+  },
+  {
+    "accession": "O75828",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 277
+  },
+  {
+    "accession": "O75438",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 58
+  },
+  {
+    "accession": "O15111",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 745
+  },
+  {
+    "accession": "P0C0S8",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 130
+  },
+  {
+    "accession": "P03956",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 469
+  },
+  {
+    "accession": "O15484",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 640
+  },
+  {
+    "accession": "O95260",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 518
+  },
+  {
+    "accession": "O95049",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 919
+  },
+  {
+    "accession": "P09017",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 264
+  },
+  {
+    "accession": "O43196",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 834
+  },
+  {
+    "accession": "O94810",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 467
+  },
+  {
+    "accession": "O14907",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 124
+  },
+  {
+    "accession": "A4D1B5",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 854
+  },
+  {
+    "accession": "O14975",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 620
+  },
+  {
+    "accession": "O43598",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 174
+  },
+  {
+    "accession": "A6NNB3",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 132
+  },
+  {
+    "accession": "O75022",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 631
+  },
+  {
+    "accession": "O95208",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 641
+  },
+  {
+    "accession": "O15245",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 554
+  },
+  {
+    "accession": "O94889",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 574
+  },
+  {
+    "accession": "O15400",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 261
+  },
+  {
+    "accession": "O95237",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 230
+  },
+  {
+    "accession": "O14939",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 933
+  },
+  {
+    "accession": "P07305",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 194
+  },
+  {
+    "accession": "O94805",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 426
+  },
+  {
+    "accession": "O15263",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 64
+  },
+  {
+    "accession": "P07737",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 140
+  },
+  {
+    "accession": "O14657",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 336
+  },
+  {
+    "accession": "O60939",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 215
+  },
+  {
+    "accession": "O00506",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 426
+  },
+  {
+    "accession": "O60678",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 531
+  },
+  {
+    "accession": "D3W0D1",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 207
+  },
+  {
+    "accession": "A2RUC4",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 315
+  },
+  {
+    "accession": "O75610",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 366
+  },
+  {
+    "accession": "P06734",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 321
+  },
+  {
+    "accession": "O75019",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 489
+  },
+  {
+    "accession": "O14524",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 444
+  },
+  {
+    "accession": "P05386",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 114
+  },
+  {
+    "accession": "O43529",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 356
+  },
+  {
+    "accession": "O95674",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 445
+  },
+  {
+    "accession": "A3KN83",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1393
+  },
+  {
+    "accession": "O95393",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 424
+  },
+  {
+    "accession": "P09467",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 338
+  },
+  {
+    "accession": "O75969",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 853
+  },
+  {
+    "accession": "O75191",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 536
+  },
+  {
+    "accession": "P09912",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 130
+  },
+  {
+    "accession": "O75674",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 476
+  },
+  {
+    "accession": "O95622",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1261
+  },
+  {
+    "accession": "O15554",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 427
+  },
+  {
+    "accession": "O43603",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 387
+  },
+  {
+    "accession": "A0JP26",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 581
+  },
+  {
+    "accession": "P05997",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1499
+  },
+  {
+    "accession": "P01011",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 423
+  },
+  {
+    "accession": "O75964",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 103
+  },
+  {
+    "accession": "O43914",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 113
+  },
+  {
+    "accession": "P06126",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 327
+  },
+  {
+    "accession": "O14925",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 209
+  },
+  {
+    "accession": "P01185",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 164
+  },
+  {
+    "accession": "P04179",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 222
+  },
+  {
+    "accession": "O75638",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 210
+  },
+  {
+    "accession": "P08253",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 660
+  },
+  {
+    "accession": "O60393",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 691
+  },
+  {
+    "accession": "P01270",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 115
+  },
+  {
+    "accession": "A8MQ03",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 144
+  },
+  {
+    "accession": "P04062",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 536
+  },
+  {
+    "accession": "O00748",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 559
+  },
+  {
+    "accession": "P05814",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 226
+  },
+  {
+    "accession": "O00746",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 187
+  },
+  {
+    "accession": "C9JRZ8",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 316
+  },
+  {
+    "accession": "O75629",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 220
+  },
+  {
+    "accession": "O43310",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 598
+  },
+  {
+    "accession": "P02679",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 453
+  },
+  {
+    "accession": "P04406",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 335
+  },
+  {
+    "accession": "P04844",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 631
+  },
+  {
+    "accession": "B7U540",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 433
+  },
+  {
+    "accession": "O60759",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 359
+  },
+  {
+    "accession": "O15389",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 551
+  },
+  {
+    "accession": "O15169",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 862
+  },
+  {
+    "accession": "O15260",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 269
+  },
+  {
+    "accession": "O60882",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 483
+  },
+  {
+    "accession": "P01579",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 166
+  },
+  {
+    "accession": "O14503",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 412
+  },
+  {
+    "accession": "O60831",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 178
+  },
+  {
+    "accession": "P05362",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 532
+  },
+  {
+    "accession": "O60667",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 390
+  },
+  {
+    "accession": "P04090",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 185
+  },
+  {
+    "accession": "O43294",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 461
+  },
+  {
+    "accession": "O76075",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 338
+  },
+  {
+    "accession": "O75815",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 825
+  },
+  {
+    "accession": "O75564",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 556
+  },
+  {
+    "accession": "P07384",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 714
+  },
+  {
+    "accession": "O95876",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 746
+  },
+  {
+    "accession": "O00505",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 521
+  },
+  {
+    "accession": "P01275",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 180
+  },
+  {
+    "accession": "O00422",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 153
+  },
+  {
+    "accession": "O60941",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 627
+  },
+  {
+    "accession": "O75469",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 434
+  },
+  {
+    "accession": "P02538",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 564
+  },
+  {
+    "accession": "O14960",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 151
+  },
+  {
+    "accession": "O60636",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 221
+  },
+  {
+    "accession": "O00291",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1037
+  },
+  {
+    "accession": "A0JNW5",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1464
+  },
+  {
+    "accession": "O95528",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 541
+  },
+  {
+    "accession": "P04198",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 464
+  },
+  {
+    "accession": "P01764",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 117
+  },
+  {
+    "accession": "O60284",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1047
+  },
+  {
+    "accession": "O75339",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1184
+  },
+  {
+    "accession": "O43897",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1013
+  },
+  {
+    "accession": "P06899",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 126
+  },
+  {
+    "accession": "O95835",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1130
+  },
+  {
+    "accession": "O14804",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 337
+  },
+  {
+    "accession": "O75897",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 302
+  },
+  {
+    "accession": "O95047",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 310
+  },
+  {
+    "accession": "O60502",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 916
+  },
+  {
+    "accession": "O60921",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 280
+  },
+  {
+    "accession": "O94818",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 638
+  },
+  {
+    "accession": "O75132",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1171
+  },
+  {
+    "accession": "O15162",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 318
+  },
+  {
+    "accession": "A6NGG8",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1288
+  },
+  {
+    "accession": "A2RUB6",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 948
+  },
+  {
+    "accession": "O00635",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 465
+  },
+  {
+    "accession": "O14843",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 346
+  },
+  {
+    "accession": "P07438",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 61
+  },
+  {
+    "accession": "O95415",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 125
+  },
+  {
+    "accession": "O15116",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 133
+  },
+  {
+    "accession": "P00505",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 430
+  },
+  {
+    "accession": "O00161",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 211
+  },
+  {
+    "accession": "O43526",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 872
+  },
+  {
+    "accession": "O94923",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 617
+  },
+  {
+    "accession": "O95125",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 648
+  },
+  {
+    "accession": "O15488",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 501
+  },
+  {
+    "accession": "O95342",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1321
+  },
+  {
+    "accession": "O14561",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 156
+  },
+  {
+    "accession": "O95990",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 144
+  },
+  {
+    "accession": "P02745",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 245
+  },
+  {
+    "accession": "P02743",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 223
+  },
+  {
+    "accession": "O75077",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 832
+  },
+  {
+    "accession": "P09758",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 323
+  },
+  {
+    "accession": "O14949",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 82
+  },
+  {
+    "accession": "O95427",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 931
+  },
+  {
+    "accession": "P04155",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 84
+  },
+  {
+    "accession": "O60784",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 492
+  },
+  {
+    "accession": "O43323",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 396
+  },
+  {
+    "accession": "O95294",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 804
+  },
+  {
+    "accession": "P09769",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 529
+  },
+  {
+    "accession": "O75935",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 186
+  },
+  {
+    "accession": "P09884",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1462
+  },
+  {
+    "accession": "P08620",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 206
+  },
+  {
+    "accession": "O14933",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 153
+  },
+  {
+    "accession": "O15511",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 151
+  },
+  {
+    "accession": "O43155",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 660
+  },
+  {
+    "accession": "P09466",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 180
+  },
+  {
+    "accession": "P04201",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 325
+  },
+  {
+    "accession": "O75679",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 317
+  },
+  {
+    "accession": "O60381",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 514
+  },
+  {
+    "accession": "O75879",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 557
+  },
+  {
+    "accession": "O94898",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1065
+  },
+  {
+    "accession": "O14628",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 629
+  },
+  {
+    "accession": "P00480",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 354
+  },
+  {
+    "accession": "O95429",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 457
+  },
+  {
+    "accession": "O43866",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 347
+  },
+  {
+    "accession": "O60568",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 738
+  },
+  {
+    "accession": "O00462",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 879
+  },
+  {
+    "accession": "O75762",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1119
+  },
+  {
+    "accession": "O15551",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 220
+  },
+  {
+    "accession": "O95630",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 424
+  },
+  {
+    "accession": "O43464",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 458
+  },
+  {
+    "accession": "O95373",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1038
+  },
+  {
+    "accession": "O43181",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 175
+  },
+  {
+    "accession": "O75379",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 141
+  },
+  {
+    "accession": "O42043",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 560
+  },
+  {
+    "accession": "O00444",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 970
+  },
+  {
+    "accession": "P05204",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 90
+  },
+  {
+    "accession": "O95352",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 703
+  },
+  {
+    "accession": "P09874",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1014
+  },
+  {
+    "accession": "O43521",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 198
+  },
+  {
+    "accession": "O95361",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 564
+  },
+  {
+    "accession": "O60682",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 206
+  },
+  {
+    "accession": "O43808",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 307
+  },
+  {
+    "accession": "O95394",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 542
+  },
+  {
+    "accession": "O95843",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 209
+  },
+  {
+    "accession": "O95497",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 513
+  },
+  {
+    "accession": "O75628",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 298
+  },
+  {
+    "accession": "P02776",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 101
+  },
+  {
+    "accession": "P08865",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 295
+  },
+  {
+    "accession": "O75475",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 530
+  },
+  {
+    "accession": "O95758",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 552
+  },
+  {
+    "accession": "A6NFY7",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 115
+  },
+  {
+    "accession": "O15247",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 247
+  },
+  {
+    "accession": "O14763",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 440
+  },
+  {
+    "accession": "O75928",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 621
+  },
+  {
+    "accession": "P07910",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 306
+  },
+  {
+    "accession": "O00337",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 649
+  },
+  {
+    "accession": "O75396",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 215
+  },
+  {
+    "accession": "O94808",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 682
+  },
+  {
+    "accession": "O60729",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 498
+  },
+  {
+    "accession": "O43237",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 492
+  },
+  {
+    "accession": "P02511",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 175
+  },
+  {
+    "accession": "O95907",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 504
+  },
+  {
+    "accession": "O43566",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 566
+  },
+  {
+    "accession": "O76093",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 207
+  },
+  {
+    "accession": "O00300",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 401
+  },
+  {
+    "accession": "A6BM72",
+    "proteome": "human",
+    "organism": "Homo sapiens",
+    "label": 0,
+    "seq_length": 1044
+  },
+  {
+    "accession": "P31378",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 399
+  },
+  {
+    "accession": "P20967",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1014
+  },
+  {
+    "accession": "P36033",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 711
+  },
+  {
+    "accession": "P14737",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1309
+  },
+  {
+    "accession": "P32381",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 391
+  },
+  {
+    "accession": "P38889",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 622
+  },
+  {
+    "accession": "P36091",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 449
+  },
+  {
+    "accession": "P05748",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 204
+  },
+  {
+    "accession": "P25374",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 497
+  },
+  {
+    "accession": "P39727",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 415
+  },
+  {
+    "accession": "P53866",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 767
+  },
+  {
+    "accession": "P53769",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 259
+  },
+  {
+    "accession": "P38261",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 753
+  },
+  {
+    "accession": "P32643",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 299
+  },
+  {
+    "accession": "P53905",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 115
+  },
+  {
+    "accession": "P32343",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 579
+  },
+  {
+    "accession": "P32902",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 394
+  },
+  {
+    "accession": "P32496",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 274
+  },
+  {
+    "accession": "P46990",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 184
+  },
+  {
+    "accession": "P0C0V8",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 87
+  },
+  {
+    "accession": "P32490",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 508
+  },
+  {
+    "accession": "P43122",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 407
+  },
+  {
+    "accession": "P0CX56",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 146
+  },
+  {
+    "accession": "P07213",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 617
+  },
+  {
+    "accession": "P30620",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 661
+  },
+  {
+    "accession": "P32492",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1471
+  },
+  {
+    "accession": "P32860",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 256
+  },
+  {
+    "accession": "P08456",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 276
+  },
+  {
+    "accession": "P47160",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 408
+  },
+  {
+    "accession": "P49435",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 187
+  },
+  {
+    "accession": "P38212",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 213
+  },
+  {
+    "accession": "P38830",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 627
+  },
+  {
+    "accession": "P53303",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 486
+  },
+  {
+    "accession": "P39875",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 702
+  },
+  {
+    "accession": "P39724",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 118
+  },
+  {
+    "accession": "P43558",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 301
+  },
+  {
+    "accession": "P11154",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1178
+  },
+  {
+    "accession": "P27796",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 417
+  },
+  {
+    "accession": "P07264",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 779
+  },
+  {
+    "accession": "P40094",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 801
+  },
+  {
+    "accession": "P38632",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 267
+  },
+  {
+    "accession": "P43497",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 92
+  },
+  {
+    "accession": "P38228",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 572
+  },
+  {
+    "accession": "P00830",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 511
+  },
+  {
+    "accession": "P20676",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1076
+  },
+  {
+    "accession": "P05319",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 106
+  },
+  {
+    "accession": "P32329",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 569
+  },
+  {
+    "accession": "P0C0W9",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 174
+  },
+  {
+    "accession": "P40003",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 282
+  },
+  {
+    "accession": "P07280",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 144
+  },
+  {
+    "accession": "P19658",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 623
+  },
+  {
+    "accession": "P32363",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 452
+  },
+  {
+    "accession": "P32773",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 286
+  },
+  {
+    "accession": "P41543",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 476
+  },
+  {
+    "accession": "P40955",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 746
+  },
+  {
+    "accession": "P40061",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1430
+  },
+  {
+    "accession": "P48439",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 350
+  },
+  {
+    "accession": "P53847",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 754
+  },
+  {
+    "accession": "P24276",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1250
+  },
+  {
+    "accession": "P38272",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 425
+  },
+  {
+    "accession": "P00937",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 484
+  },
+  {
+    "accession": "P36096",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 758
+  },
+  {
+    "accession": "P02992",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 437
+  },
+  {
+    "accession": "P39516",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 138
+  },
+  {
+    "accession": "P20133",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 325
+  },
+  {
+    "accession": "P32776",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 642
+  },
+  {
+    "accession": "P38352",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 637
+  },
+  {
+    "accession": "P43639",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 278
+  },
+  {
+    "accession": "P25389",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1037
+  },
+  {
+    "accession": "P35208",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 640
+  },
+  {
+    "accession": "P53915",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 240
+  },
+  {
+    "accession": "P38137",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 543
+  },
+  {
+    "accession": "P21192",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 770
+  },
+  {
+    "accession": "P40970",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 561
+  },
+  {
+    "accession": "P25040",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 408
+  },
+  {
+    "accession": "P40167",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 298
+  },
+  {
+    "accession": "P32318",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 326
+  },
+  {
+    "accession": "P25642",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 146
+  },
+  {
+    "accession": "P40073",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 367
+  },
+  {
+    "accession": "P40492",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 516
+  },
+  {
+    "accession": "P21373",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 530
+  },
+  {
+    "accession": "P24868",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 471
+  },
+  {
+    "accession": "P40075",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 244
+  },
+  {
+    "accession": "P25453",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 334
+  },
+  {
+    "accession": "P20424",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 541
+  },
+  {
+    "accession": "P27472",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 705
+  },
+  {
+    "accession": "P32347",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 362
+  },
+  {
+    "accession": "P49367",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 693
+  },
+  {
+    "accession": "P36142",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 418
+  },
+  {
+    "accession": "P40218",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 412
+  },
+  {
+    "accession": "P38954",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 527
+  },
+  {
+    "accession": "P34087",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 171
+  },
+  {
+    "accession": "P0CY06",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 175
+  },
+  {
+    "accession": "P32473",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 366
+  },
+  {
+    "accession": "P34217",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 668
+  },
+  {
+    "accession": "P53616",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 420
+  },
+  {
+    "accession": "P22224",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 910
+  },
+  {
+    "accession": "P00360",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 332
+  },
+  {
+    "accession": "P04039",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 78
+  },
+  {
+    "accession": "P36124",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 751
+  },
+  {
+    "accession": "P09938",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 399
+  },
+  {
+    "accession": "P50105",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 388
+  },
+  {
+    "accession": "P32364",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 656
+  },
+  {
+    "accession": "P25037",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 809
+  },
+  {
+    "accession": "P20449",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 482
+  },
+  {
+    "accession": "P40460",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 691
+  },
+  {
+    "accession": "P03965",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1118
+  },
+  {
+    "accession": "P40988",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 552
+  },
+  {
+    "accession": "P28817",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 500
+  },
+  {
+    "accession": "P00424",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 153
+  },
+  {
+    "accession": "P38121",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 705
+  },
+  {
+    "accession": "P39014",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 640
+  },
+  {
+    "accession": "P53159",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 387
+  },
+  {
+    "accession": "P17695",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 143
+  },
+  {
+    "accession": "P47076",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 161
+  },
+  {
+    "accession": "P17064",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 533
+  },
+  {
+    "accession": "P53633",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 176
+  },
+  {
+    "accession": "P06843",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 333
+  },
+  {
+    "accession": "P49687",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1317
+  },
+  {
+    "accession": "P40548",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 159
+  },
+  {
+    "accession": "P00359",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 332
+  },
+  {
+    "accession": "P41921",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 483
+  },
+  {
+    "accession": "P53839",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 350
+  },
+  {
+    "accession": "P43636",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 503
+  },
+  {
+    "accession": "P48240",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 250
+  },
+  {
+    "accession": "P33401",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 570
+  },
+  {
+    "accession": "P40495",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 371
+  },
+  {
+    "accession": "P05150",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 338
+  },
+  {
+    "accession": "P33328",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 115
+  },
+  {
+    "accession": "P06780",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 209
+  },
+  {
+    "accession": "P15565",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 570
+  },
+  {
+    "accession": "P53865",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 581
+  },
+  {
+    "accession": "P32769",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 611
+  },
+  {
+    "accession": "P38789",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 453
+  },
+  {
+    "accession": "P08425",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 469
+  },
+  {
+    "accession": "P53093",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 235
+  },
+  {
+    "accession": "P53140",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 646
+  },
+  {
+    "accession": "P38881",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 321
+  },
+  {
+    "accession": "P30605",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 584
+  },
+  {
+    "accession": "P25341",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 720
+  },
+  {
+    "accession": "P40005",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 111
+  },
+  {
+    "accession": "P37020",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 779
+  },
+  {
+    "accession": "P08524",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 352
+  },
+  {
+    "accession": "P20459",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 304
+  },
+  {
+    "accession": "P14832",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 162
+  },
+  {
+    "accession": "P40219",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 148
+  },
+  {
+    "accession": "P07260",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 213
+  },
+  {
+    "accession": "P16664",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 663
+  },
+  {
+    "accession": "P25588",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1096
+  },
+  {
+    "accession": "P00549",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 500
+  },
+  {
+    "accession": "P49686",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 430
+  },
+  {
+    "accession": "P50085",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 310
+  },
+  {
+    "accession": "P43586",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 204
+  },
+  {
+    "accession": "P32179",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 357
+  },
+  {
+    "accession": "P05740",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 184
+  },
+  {
+    "accession": "P28272",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 314
+  },
+  {
+    "accession": "P40554",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 99
+  },
+  {
+    "accession": "P53146",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 245
+  },
+  {
+    "accession": "P32939",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 208
+  },
+  {
+    "accession": "P47912",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 694
+  },
+  {
+    "accession": "P09232",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 635
+  },
+  {
+    "accession": "P38149",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 878
+  },
+  {
+    "accession": "P16522",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 626
+  },
+  {
+    "accession": "P53152",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 137
+  },
+  {
+    "accession": "P40152",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 326
+  },
+  {
+    "accession": "P47142",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 202
+  },
+  {
+    "accession": "P32486",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 720
+  },
+  {
+    "accession": "P53397",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 376
+  },
+  {
+    "accession": "P00958",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 751
+  },
+  {
+    "accession": "P32367",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 649
+  },
+  {
+    "accession": "P32478",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 413
+  },
+  {
+    "accession": "P31244",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 790
+  },
+  {
+    "accession": "P39723",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 622
+  },
+  {
+    "accession": "P38310",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 465
+  },
+  {
+    "accession": "P10614",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 530
+  },
+  {
+    "accession": "P20053",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 465
+  },
+  {
+    "accession": "P38255",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 430
+  },
+  {
+    "accession": "P00401",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 534
+  },
+  {
+    "accession": "P39929",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 240
+  },
+  {
+    "accession": "P31412",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 392
+  },
+  {
+    "accession": "P11747",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 167
+  },
+  {
+    "accession": "P38109",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 508
+  },
+  {
+    "accession": "P16622",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 393
+  },
+  {
+    "accession": "P25491",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 409
+  },
+  {
+    "accession": "P39962",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 524
+  },
+  {
+    "accession": "P41813",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 862
+  },
+  {
+    "accession": "P19262",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 463
+  },
+  {
+    "accession": "P39078",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 528
+  },
+  {
+    "accession": "P38754",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 138
+  },
+  {
+    "accession": "P32767",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1081
+  },
+  {
+    "accession": "P47169",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 1442
+  },
+  {
+    "accession": "P39012",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 614
+  },
+  {
+    "accession": "P20840",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 650
+  },
+  {
+    "accession": "P34164",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 415
+  },
+  {
+    "accession": "P36081",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 392
+  },
+  {
+    "accession": "P16387",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 420
+  },
+  {
+    "accession": "P21651",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 314
+  },
+  {
+    "accession": "P53314",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 239
+  },
+  {
+    "accession": "P40513",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 266
+  },
+  {
+    "accession": "P38348",
+    "proteome": "yeast",
+    "organism": "Saccharomyces cerevisiae",
+    "label": 0,
+    "seq_length": 480
+  },
+  {
+    "accession": "Q5YDB6",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 967
+  },
+  {
+    "accession": "P56772",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 196
+  },
+  {
+    "accession": "Q0WNZ5",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 812
+  },
+  {
+    "accession": "O22203",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 508
+  },
+  {
+    "accession": "F4IY62",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 883
+  },
+  {
+    "accession": "Q06BH3",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 775
+  },
+  {
+    "accession": "F4JNY0",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 610
+  },
+  {
+    "accession": "F4IN69",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 1275
+  },
+  {
+    "accession": "Q6R0A6",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 294
+  },
+  {
+    "accession": "O64782",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 805
+  },
+  {
+    "accession": "P92959",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 198
+  },
+  {
+    "accession": "O23474",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 348
+  },
+  {
+    "accession": "Q38967",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 493
+  },
+  {
+    "accession": "Q07488",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 196
+  },
+  {
+    "accession": "P49107",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 171
+  },
+  {
+    "accession": "O64948",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 888
+  },
+  {
+    "accession": "P93836",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 445
+  },
+  {
+    "accession": "O82743",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 219
+  },
+  {
+    "accession": "O81417",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 165
+  },
+  {
+    "accession": "P42736",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 248
+  },
+  {
+    "accession": "F4I7C7",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 930
+  },
+  {
+    "accession": "F4J339",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 1194
+  },
+  {
+    "accession": "O23507",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 364
+  },
+  {
+    "accession": "O82663",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 634
+  },
+  {
+    "accession": "Q38858",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 424
+  },
+  {
+    "accession": "P59232",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 157
+  },
+  {
+    "accession": "P56780",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 73
+  },
+  {
+    "accession": "O80803",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 282
+  },
+  {
+    "accession": "Q0WT48",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 687
+  },
+  {
+    "accession": "O48737",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 179
+  },
+  {
+    "accession": "O04983",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 537
+  },
+  {
+    "accession": "E3VNM4",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 460
+  },
+  {
+    "accession": "P55230",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 518
+  },
+  {
+    "accession": "Q39172",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 345
+  },
+  {
+    "accession": "P43289",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 409
+  },
+  {
+    "accession": "F4JP36",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 705
+  },
+  {
+    "accession": "F4JAA5",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 1347
+  },
+  {
+    "accession": "P46313",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 383
+  },
+  {
+    "accession": "F4KFS7",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 550
+  },
+  {
+    "accession": "O04316",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 619
+  },
+  {
+    "accession": "Q43125",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 681
+  },
+  {
+    "accession": "O24456",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 327
+  },
+  {
+    "accession": "Q6R0C4",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 249
+  },
+  {
+    "accession": "O80925",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 456
+  },
+  {
+    "accession": "Q3S4A7",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 922
+  },
+  {
+    "accession": "O23463",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 923
+  },
+  {
+    "accession": "O64903",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 231
+  },
+  {
+    "accession": "O04291",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 852
+  },
+  {
+    "accession": "P46014",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 581
+  },
+  {
+    "accession": "A1A6M1",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 387
+  },
+  {
+    "accession": "Q7XJR9",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 571
+  },
+  {
+    "accession": "B7ZWR6",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 554
+  },
+  {
+    "accession": "Q39123",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 833
+  },
+  {
+    "accession": "Q5W9E7",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 659
+  },
+  {
+    "accession": "F4KBF5",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 282
+  },
+  {
+    "accession": "P43298",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 942
+  },
+  {
+    "accession": "O04318",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 467
+  },
+  {
+    "accession": "P93735",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 195
+  },
+  {
+    "accession": "C0LGN2",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 1020
+  },
+  {
+    "accession": "O80673",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 576
+  },
+  {
+    "accession": "O80612",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 555
+  },
+  {
+    "accession": "O80634",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 238
+  },
+  {
+    "accession": "Q3ECM0",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 126
+  },
+  {
+    "accession": "P0DKC5",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 349
+  },
+  {
+    "accession": "P54150",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 258
+  },
+  {
+    "accession": "O48726",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 300
+  },
+  {
+    "accession": "Q02971",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 357
+  },
+  {
+    "accession": "F4HYF3",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 401
+  },
+  {
+    "accession": "O82392",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 644
+  },
+  {
+    "accession": "P46032",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 585
+  },
+  {
+    "accession": "F4JSH1",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 740
+  },
+  {
+    "accession": "P0DH91",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 181
+  },
+  {
+    "accession": "B0F481",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 833
+  },
+  {
+    "accession": "F4ICB6",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 709
+  },
+  {
+    "accession": "P43256",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 562
+  },
+  {
+    "accession": "O65202",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 664
+  },
+  {
+    "accession": "A8MQY1",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 473
+  },
+  {
+    "accession": "F4JYE9",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 530
+  },
+  {
+    "accession": "P39207",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 149
+  },
+  {
+    "accession": "O04905",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 202
+  },
+  {
+    "accession": "P56761",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 353
+  },
+  {
+    "accession": "Q38857",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 284
+  },
+  {
+    "accession": "F4I443",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 714
+  },
+  {
+    "accession": "Q2HIK4",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 129
+  },
+  {
+    "accession": "Q38825",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 243
+  },
+  {
+    "accession": "Q56Y74",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 663
+  },
+  {
+    "accession": "Q42524",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 561
+  },
+  {
+    "accession": "Q39016",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 495
+  },
+  {
+    "accession": "Q05609",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 821
+  },
+  {
+    "accession": "P11139",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 450
+  },
+  {
+    "accession": "P0C7R1",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 239
+  },
+  {
+    "accession": "Q66GQ5",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 540
+  },
+  {
+    "accession": "Q6R0H1",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 645
+  },
+  {
+    "accession": "O24409",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 197
+  },
+  {
+    "accession": "O04202",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 293
+  },
+  {
+    "accession": "O81770",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 533
+  },
+  {
+    "accession": "O22763",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 411
+  },
+  {
+    "accession": "O23722",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 412
+  },
+  {
+    "accession": "P11574",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 486
+  },
+  {
+    "accession": "F4IVI0",
+    "proteome": "arabidopsis",
+    "organism": "Arabidopsis thaliana",
+    "label": 0,
+    "seq_length": 525
+  }
+]
