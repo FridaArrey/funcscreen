@@ -1,0 +1,21 @@
+============================================================
+SEB STRUCTURAL VALIDATION REPORT
+============================================================
+Analysis Date: 2026-03-22
+Target: Staph Enterotoxin B (Mature Domain, 266aa)
+
+DETECTION SUMMARY:
+- HMMER Profile (bsat_profiles_v2): 0/51 Detected
+- ESM-2 Embeddings (Mean Pooling): 51/51 Detected
+- Sequence Identity Range: 4.9% - 6.8%
+
+STRUCTURAL MOTIF CONSERVATION:
+- N-terminal_beta: 10.7% (High Divergence)
+- Central_alpha: 4.0% (High Divergence)
+- Binding_loop: 3.0% (High Divergence)
+
+CONCLUSION:
+Redesigned variants effectively bypass sequence-based homology 
+filters while maintaining structural grammar recognized by 
+transformer-based models (ESM-2).
+============================================================
