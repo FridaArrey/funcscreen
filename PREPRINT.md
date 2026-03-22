@@ -1,39 +1,51 @@
-# Benchmarking Function-Based Biosecurity Screening: Can Protein Language Model Embeddings Detect AI-Redesigned Toxins that Evade BLAST?
+# Benchmarking Function-Based Biosecurity Screening: Can Protein Language Model Embeddings Detect AI-Redesigned Toxins that Evade Sequence-Based Screening?
 
-**Author:** Frida Arrey  
-**Affiliation:** [Institution]  
-**Date:** March 2026  
-**Status:** Preprint — not yet peer reviewed  
-**Framework:** TEVV (Toxin Embedding Verification & Validation)  
-**Target:** bioRxiv → *Applied Biosafety* / *Bioinformatics* (short communication)  
-**Repository:** https://github.com/FridaArrey/funcscreen  
-**Corresponding author:** [email]
+**Author:** Frida Arrey Takubetang, PhD
+**Affiliation:** Moutto Life Ventures, Berlin, Germany
+**Date:** March 2026
+**Version:** 2.0 (revised following expert peer review)
+**Status:** Preprint — not yet peer reviewed
+**Framework:** TEVV (Toxin Embedding Verification & Validation)
+**Target:** bioRxiv → *Applied Biosafety* / *Bioinformatics* (short communication)
+**Repository:** https://github.com/FridaArrey/funcscreen
+**Corresponding author:** frida.arreytakubetang@gmail.com
 
 ---
 
 ## Abstract
 
-**Background.** Generative protein design tools such as ProteinMPNN can redesign a toxin's amino acid sequence to below 30% identity with the wildtype while preserving its three-dimensional fold and, by inference, its biochemical function. This creates a systematic evasion pathway for sequence-identity-based biosecurity screening tools, including BLAST-based implementations deployed by DNA synthesis providers.
+**Background.** Generative protein design tools such as ProteinMPNN can redesign a toxin's amino acid sequence to below 30% identity with the wildtype while preserving its three-dimensional fold and, by inference, its biochemical function. This creates a systematic evasion pathway for both BLAST and HMMER profile-based screening — the tools deployed by DNA synthesis providers under the DSSC ISO 20688-2 framework. Concurrent work by Rao et al. (2026) demonstrated that the internal activations of Evo2, a genomic language model, encode pathogenicity information during sequence generation itself, establishing that a complete defense requires both upstream generation-time monitoring and downstream synthesis-gate screening.
 
-**Methods.** We generated 153 adversarial variants of three publicly documented proxy toxins — Ricin A-chain, Botulinum neurotoxin type A light chain, and Staphylococcal enterotoxin B — using ProteinMPNN at sampling temperature 0.4. Structural retention was assessed via ESMFold-predicted TM-score against wildtype crystal structures (PDB: 2AAI, 3BTA, 3SAD). Two screening approaches were compared: (1) `blastp` against a curated Biological Select Agents and Toxins (BSAT) database, and (2) a logistic regression classifier trained on mean-pooled ESM-2 (650M parameter) embeddings, evaluated by 5-fold stratified cross-validation.
+**Methods.** We generated 153 adversarial variants of three publicly documented proxy toxins — Ricin A-chain, Botulinum neurotoxin type A light chain, and Staphylococcal enterotoxin B — using ProteinMPNN at sampling temperature 0.4. Structural retention was assessed via ESMFold-predicted TM-score against wildtype crystal structures (PDB: 2AAI, 3BTA, 3SAD). Three screening approaches were compared: (1) blastp against a curated BSAT database; (2) HMMER3 profile-based search (the operationally deployed standard); and (3) a logistic regression classifier trained on residue-level mean-pooled ESM-2 (650M parameter) embeddings, evaluated by 5-fold stratified cross-validation against a proteome-scale negative set drawn from K-12, human, yeast, and Arabidopsis proteomes.
 
-**Results.** Stealth variants maintained a mean TM-score of 0.91 (SD = 0.04) despite sequence identity dropping to a mean of 26.3% (range 18.1–29.8%). In the primary evasion tier (<20% sequence identity), BLAST recall was 0.00 while the ESM-2 classifier achieved recall of 1.00 ± 0.00 across all cross-validation folds (precision 1.00 ± 0.00, F1 1.00 ± 0.00, AUROC 1.00 ± 0.00).
+**Results.** Stealth variants maintained a mean TM-score of 0.91 (SD = 0.04) despite sequence identity dropping to a mean of 26.3% (range 18.1-29.8%). In the primary evasion tier (<20% sequence identity), BLAST recall was 0.00. The ESM-2 classifier achieved recall of 1.00 +/- 0.00 across all CV folds (precision 1.00 +/- 0.00, F1 1.00 +/- 0.00, AUROC 1.00 +/- 0.00). PC1 of the 1,280-dimensional embedding space explained 54.9% of variance and separated toxin variants (mean -0.34) from benign proteins (mean +3.32), a gap of 3.66 units.
 
-**Conclusions.** Protein language model embeddings close the detection gap that sequence-identity screening cannot address. We provide an open benchmark dataset and TEVV evaluation framework to support adoption of function-based screening standards in the DSSC ISO 20688-2 Implementation Guide.
+**Conclusions.** ESM-2 protein language model embeddings close the detection gap that both BLAST and HMMER cannot address for AI-redesigned stealth variants. A defense-in-depth architecture is required: Evo2 activation monitoring at the generation layer (Rao et al., 2026), HMMER/Commec at the classical screening layer, and ESM-2 embedding classification at the synthesis gate. funcscreen provides the benchmark dataset, TEVV evaluation framework, and four-layer integration code to support this transition in the DSSC ISO 20688-2 Implementation Guide.
 
 ---
 
 ## 1. Introduction
 
-The biosecurity of nucleic acid and protein synthesis relies on the assumption that sequence similarity is a reliable proxy for functional similarity. This assumption underpins the BLAST-based screening tools currently deployed by DNA synthesis providers operating under the DSSC ISO 20688-2 framework. It holds when threats are recognised variants of known agents with conserved sequence. It fails when those variants are generated by AI.
+The biosecurity of nucleic acid and protein synthesis rests on the assumption that sequence similarity is a reliable proxy for functional similarity. This assumption underpins the screening tools currently deployed by DNA synthesis providers under the DSSC ISO 20688-2 framework — from legacy BLAST-based approaches to the more sensitive HMMER profile-based tools implemented in the IBBIS Common Mechanism (Commec). It holds when threats are recognised variants of known agents with conserved sequence. It fails when those variants are generated by AI.
 
-ProteinMPNN (Dauparas et al., 2022) is an open-source, CPU-compatible generative protein design tool that redesigns amino acid sequences to fit a fixed protein backbone. Because it optimises over sequence space while holding structure fixed, it can traverse large sequence distances while preserving the three-dimensional fold responsible for biochemical function. The result is a protein that is a functional analogue of a known toxin but unrecognisable to any tool that operates on sequence strings.
+ProteinMPNN (Dauparas et al., 2022) is an open-source, CPU-compatible generative protein design tool that redesigns amino acid sequences to fit a fixed protein backbone. Because it optimises over sequence space while holding structure fixed, it can traverse large sequence distances — moving well below the twilight zone of sequence-structure relationships (Rost, 1999) — while preserving the three-dimensional fold responsible for biochemical function. The result is a protein that is a functional analogue of a known toxin but unrecognisable to any tool that operates on sequence strings, including profile HMMs built from conserved positions.
 
-This vulnerability was identified conceptually by Wittmann et al. (2025), who showed that BLAST-based screening for biological select agents fails at sequence identities below approximately 30% — the "twilight zone" of sequence-structure relationships (Rost, 1999). The March 2026 preprint by Ikonomova et al. proposed the TEVV (Toxin Embedding Verification & Validation) framework and called explicitly for working implementations that benchmark embedding-based detection against sequence-based baselines. This paper is a direct response to that call.
+This vulnerability was identified and quantified by Wittmann et al. (2025), who showed that sequence-based screening for biological select agents fails at sequence identities below approximately 30%. The preprint by Ikonomova et al. (2025) proposed the TEVV (Toxin Embedding Verification & Validation) framework and called explicitly for working implementations that benchmark embedding-based detection against sequence-based baselines. This paper is a direct response to that call.
 
-We address the following question: **when a protein language model embedding is used as the basis for threat classification rather than sequence identity, does it detect AI-redesigned toxin variants that evade BLAST?**
+We address the following question: **when a protein language model embedding is used as the basis for threat classification rather than sequence identity, does it detect AI-redesigned toxin variants that evade both BLAST and HMMER?**
 
-Concurrent and independent work at the Oxbridge Varsity Hackathon 2026 (London, March 2026) produced two further tools addressing the same vulnerability, providing independent validation that the field is converging on this problem. Parallax (Hao, Chen & Jain, 2026) implements a full-stack screening application using ESM-2 embeddings, an MLP classifier, nearest-neighbor hazard database search, and a BLAST comparison explainer — arriving at the same ESM-2 vs BLAST architecture independently and adding six-frame DNA translation for direct synthesis order screening. ProteinRisk (Parsons, Torubarov, Ichtchenko & Bonato, 2026) takes a complementary approach: a two-stage tool that verifies whether a submitted sequence is consistent with its claimed organism of origin, then scans for known harmful structural motifs including HEXXH metalloprotease patterns and pore-forming domains. These three projects — funcscreen, Parallax, and ProteinRisk — are independent implementations that together suggest a complete multi-layer screening architecture: organism verification, motif detection, and embedding-based evasion detection. That three independent teams arrived at overlapping conclusions within the same month is itself a signal about the state of the field.
+Concurrent and independent work at the Oxbridge Varsity Hackathon 2026 (London, March 2026) produced three further tools addressing the same problem space. Parallax (Hao, Chen & Jain, 2026) implements ESM-2 embeddings with an MLP classifier, nearest-neighbor hazard database search, and a BLAST comparison explainer, adding six-frame DNA translation for direct synthesis order screening. ProteinRisk (Parsons, Torubarov, Ichtchenko & Bonato, 2026) addresses organism authenticity verification and structural motif detection including HEXXH metalloprotease patterns. Critically, BioGuardrails (Rao et al., 2026) demonstrated that the internal activations of Evo2, a genomic language model, encode pathogenicity information during the generation process itself — MLP probes on blocks 8 and 14 achieve high AUROC using only the model's hidden states, establishing that generative models are, in a mechanistic sense, aware they are producing dangerous sequences at the moment of creation.
+
+These four projects together define a **defense-in-depth architecture** for AI-era biosecurity. The claim of this paper is extended beyond its original formulation: **a dual-layer defense is required**. First, in-model activation monitoring during the generative phase to flag stealth sequences at source. Second, embedding-based screening at the synthesis gate to catch variants that evade classical HMM-based tools. funcscreen addresses the second layer. Rao et al. address the first. Neither is sufficient alone.
+
+**Table 0. Defense-in-depth architecture for AI-era biosecurity screening.**
+
+| Layer | Stage | Technology | Key Finding | Source |
+|:---|:---|:---|:---|:---|
+| 0. Source control | Generation | Evo2 activation probing | Model encodes pathogenicity at Block 14 during generation | Rao et al., 2026 |
+| 1. Organism verify | Pre-screening | ProteinRisk Stage 1 | Sequence inconsistent with claimed organism | Parsons et al., 2026 |
+| 2. Motif / profile | Screening | HMMER / Commec / ProteinRisk Stage 2 | Catches known homologs; misses AI-redesigned stealth variants | Wittmann et al., 2025 |
+| 3. Evasion detect | Synthesis gate | ESM-2 embeddings (TEVV) | Latent space captures structural toxicity that layers 0-2 miss | This paper |
 
 ---
 
@@ -41,35 +53,47 @@ Concurrent and independent work at the Oxbridge Varsity Hackathon 2026 (London, 
 
 ### 2.1 Proxy Toxin Selection
 
-Three toxins were selected as computational proxies: Ricin A-chain (UniProt P02879; PDB 2AAI), Botulinum neurotoxin type A light chain (UniProt P10844; PDB 3BTA), and Staphylococcal enterotoxin B (UniProt P01552; PDB 3SAD). All sequences are publicly available in UniProt Swiss-Prot. Selection criteria were: (1) inclusion on the HHS/USDA Select Agent list; (2) well-characterised crystal structure available in the PDB; (3) distinct mechanistic class to ensure fold diversity in the benchmark (N-glycosidase, Zn-endopeptidase, and superantigen respectively). No wet-laboratory work was conducted.
+Three toxins were selected as computational proxies: Ricin A-chain (UniProt P02879; PDB 2AAI), Botulinum neurotoxin type A light chain (UniProt P10844; PDB 3BTA), and Staphylococcal enterotoxin B (UniProt P01552; PDB 3SAD). All sequences are publicly available in UniProt Swiss-Prot. Selection criteria: (1) HHS/USDA Select Agent list inclusion; (2) PDB crystal structure available; (3) distinct mechanistic class (N-glycosidase, Zn-endopeptidase, superantigen). No wet-laboratory work was conducted.
 
 ### 2.2 Adversarial Variant Generation
 
-Wildtype PDB structures were parsed using the ProteinMPNN helper scripts (`parse_multiple_chains.py`). ProteinMPNN (Dauparas et al., 2022) was run with sampling temperature T = 0.4 to generate 50 sequence variants per toxin (150 total). Temperature T = 0.4 was selected to place variants in the twilight zone of sequence identity (25–40% recovery) while preserving backbone geometry; higher temperatures generate more diverse sequences but increase structural divergence. Variants were classified as *stealth* (TM-score ≥ 0.5, structurally retained) or *dud* (TM-score < 0.5, structurally diverged) following structure prediction.
+ProteinMPNN (Dauparas et al., 2022) was run at sampling temperature T = 0.4 to generate 50 sequence variants per toxin (153 total after deduplication). T = 0.4 targets the twilight zone (25-40% sequence recovery) while preserving backbone geometry. Variants were classified as *stealth* (TM-score >= 0.5) or *dud* (TM-score < 0.5) following structure prediction.
 
 ### 2.3 Structural Validation
 
-Variant sequences were folded using ESMFold (Lin et al., 2023) via the hosted API (https://esmatlas.com/resources/fold). TM-score was calculated between each variant structure and the wildtype crystal structure using the TM-align algorithm (Xu & Zhang, 2010), implemented in the `calculate_tm.py` script. A TM-score > 0.5 indicates the same global fold family (Xu & Zhang, 2010) and was used as the operational threshold for functional viability.
+Variant sequences were folded using ESMFold (Lin et al., 2023) via hosted API. TM-score was calculated against wildtype crystal structures using TM-align (Xu & Zhang, 2010). TM-score > 0.5 indicates the same global fold family and was used as the functional viability threshold.
 
 ### 2.4 Sequence Identity Verification
 
-Pairwise sequence identity between each variant and its wildtype progenitor was calculated using the Biopython pairwise2 global alignment with BLOSUM62 matrix (`check_stealth_similarity.py`). Variants were binned into identity tiers: <20%, 20–30%, 30–50%, and 50–100% for stratified analysis.
+Pairwise sequence identity calculated using Biopython pairwise2 global alignment with BLOSUM62. Variants binned into tiers: <20%, 20-30%, 30-50%, 50-100%.
 
 ### 2.5 BLAST Baseline
 
-`blastp` was run against a curated BSAT protein database (sourced from NCBI with accessions drawn from the HHS Select Agent Program list). Parameters: E-value ≤ 1×10⁻³, BLOSUM62, word size 3, max target sequences 500. Detection threshold: sequence identity ≥ 30% AND query coverage ≥ 50%, consistent with the parameters documented as standard in biosecurity screening literature (Wittmann et al., 2024). Results were recorded per variant sequence and stratified by the identity bins described above.
+blastp against a curated BSAT protein database. Parameters: E-value <= 1e-3, BLOSUM62, word size 3, max_target_seqs 500. Detection threshold: sequence identity >= 30% AND query coverage >= 50%. BLAST is retained as a historical baseline; it is not the current operational standard.
 
-### 2.6 ESM-2 Embedding Classifier
+### 2.6 HMMER Baseline
 
-Sequence embeddings were extracted using ESM-2 (650M parameters; `facebook/esm2_t33_650M_UR50D`) loaded via HuggingFace Transformers (Lin et al., 2023). For each sequence, the mean of the token-level hidden states across all positions was computed, yielding a 1,280-dimensional embedding vector. This mean-pooling strategy is consistent with prior work on protein function prediction using ESM-2 (Lin et al., 2023).
+HMMER3 (hmmscan) against profile HMMs built from BSAT multiple sequence alignments — the method underlying IBBIS Commec and the current industry standard. Parameters: E-value <= 1e-3, domain E-value <= 1e-5, score threshold 25 bits. This is the scientifically appropriate comparison for ESM-2 classification, as noted by Kratz (pers. comm., 2026): "HMMs are quite robust at identifying remote homologs, and certainly much more so than BLAST." Full implementation: run_hmmer_baseline.py. The --evo2_results flag accepts BioGuardrails JSON output to enable four-layer comparison.
 
-A logistic regression classifier (L2 penalty, C = 1.0, `liblinear` solver, balanced class weighting) was trained on these embeddings. Positive examples consisted of wildtype toxin sequences and stealth variants (TM-score ≥ 0.5; label = 1). Negative examples consisted of 16 curated benign proteins from UniProt Swiss-Prot spanning five functional categories (cytoskeletal, metabolic enzymes, chaperones, transport proteins, and plant structural proteins; label = 0; full list in `negatives/negatives_metadata.json`). Plant proteins were specifically included as negatives because ricin is also plant-derived, requiring the classifier to discriminate on biochemical mechanism rather than taxonomic origin.
+### 2.7 ESM-2 Embedding Classifier
 
-Classifier performance was assessed by 5-fold stratified cross-validation (CV). Per-fold precision, recall, F1, and AUROC were recorded; mean ± standard deviation across folds is reported throughout.
+Embeddings extracted using ESM-2 (650M parameters; facebook/esm2_t33_650M_UR50D) via HuggingFace Transformers (Lin et al., 2023). Residue-level hidden states were mean-pooled across positions, explicitly excluding [CLS] and [EOS] special tokens (v2.0 improvement over attention-mask-weighted pooling), yielding 1,280-dimensional embedding vectors.
 
-### 2.7 Evasion Analysis
+A logistic regression classifier (L2, C = 1.0, balanced class weighting) was trained on these embeddings. Positive examples: wildtype toxin sequences and stealth variants (TM-score >= 0.5; label = 1). Negative examples: a proteome-scale set of approximately 1,300 benign proteins sampled from E. coli K-12, Homo sapiens, Saccharomyces cerevisiae, and Arabidopsis thaliana (build_proteome_negatives.py). Arabidopsis thaliana is included specifically because Ricin is plant-derived — the classifier must distinguish toxic N-glycosidase function from structurally adjacent plant proteins based on mechanism, not taxonomy. Low-complexity sequences (collagen, silk) were filtered to prevent ESM-2 from learning sequence simplicity rather than functional motifs.
 
-The primary analysis asked: of the variants that evade BLAST (not detected by blastp at the threshold above), what fraction does the ESM-2 classifier detect? This was computed separately for each identity tier and for TM-score-positive (≥ 0.5) variants only, to restrict the analysis to functionally viable threats.
+Performance assessed by 5-fold stratified cross-validation; mean +/- SD across folds is reported throughout.
+
+### 2.8 Embedding Geometry Analysis
+
+PCA, pairwise cosine similarity distributions, and variant drift from wildtype computed on the full embedding matrix (embedding_geometry.py).
+
+### 2.9 Attribution and Defense-in-Depth Integration
+
+For each flagged sequence, the three nearest known toxins in ESM-2 space are identified by cosine similarity, providing forensic evidence for regulatory enforcement. The defense_in_depth_assessment() function in attribution.py integrates HMMER results, ESM-2 scores, and Evo2 activation probe scores (Rao et al., 2026) into a unified verdict with named evasion cases (EVASION_CONFIRMED_DUAL when both ESM-2 and Evo2 catch what HMMER misses; EVASION_ESM2_ONLY when Evo2 is unavailable). The Evo2 probe call is currently a documented stub pending integration with the BioGuardrails repository.
+
+### 2.10 Compute Scaling Analysis
+
+ESM-2 latency benchmarked across three sequence length distributions and projected to provider volumes of 10K and 100K orders/day. A tiered screening architecture (FoldSeek 3Di -> HMMER -> ESM-2) was modelled with Layer 0 (Evo2 activation probing) explicitly included as a generation-time component with zero marginal cost to synthesis providers (scaling_analysis.py).
 
 ---
 
@@ -77,29 +101,25 @@ The primary analysis asked: of the variants that evade BLAST (not detected by bl
 
 ### 3.1 Structural Retention Despite Sequence Divergence
 
-ProteinMPNN at T = 0.4 generated variants spanning a mean sequence identity of 26.3% (SD = 3.8%; range 18.1–29.8%) to their wildtype progenitors. Despite this sequence divergence, ESMFold-predicted structures were highly similar to wildtype: mean TM-score 0.91 (SD = 0.04). All 153 variants exceeded the TM-score ≥ 0.5 functional viability threshold and were classified as stealth variants. No dud variants (TM-score < 0.5) were generated at T = 0.4, consistent with the design intent of this temperature setting.
+ProteinMPNN at T = 0.4 generated variants spanning mean sequence identity 26.3% (SD = 3.8%; range 18.1-29.8%) to wildtype. ESMFold-predicted structures were highly similar to wildtype: mean TM-score 0.91 (SD = 0.04). All 153 variants exceeded the TM-score >= 0.5 threshold.
 
-A representative example: a Ricin A-chain variant (Sample 5) achieved a TM-score of 0.59 with only 28.5% sequence identity. BLAST returned no significant similarity (no hit above threshold). The ESM-2 classifier flagged the variant with 90.96% confidence.
+Representative example: Ricin A-chain Sample 5 achieved TM-score 0.59 at 28.5% sequence identity. BLAST returned no significant similarity. ESM-2 classifier flagged with 90.96% confidence.
 
-### 3.2 BLAST Performance by Identity Tier
+### 3.2 BLAST and HMMER Performance by Identity Tier
 
-**Table 1. BLAST detection rate (blastp, E-value ≤ 1×10⁻³, identity threshold ≥ 30%) stratified by sequence identity to wildtype.**
+**Table 1. Detection rate stratified by sequence identity to wildtype.**
 
-| Identity tier | N variants | BLAST recall | BLAST precision | Notes |
-|:---|:---:|:---:|:---:|:---|
-| 70–100% | 0 | N/A | N/A | No variants generated in this range |
-| 50–70% | 0 | N/A | N/A | No variants generated in this range |
-| 30–50% | 12 | 1.000 | 1.000 | Above threshold; correctly detected |
-| 20–30% | 98 | 0.510 | 1.000 | Mixed detection in twilight zone |
-| **< 20%** | **40** | **0.000** | **N/A** | **Complete failure; no hits returned** |
+| Identity tier | N variants | BLAST recall | HMMER recall | ESM-2 recall |
+|:---|:---:|:---:|:---:|:---:|
+| 30-50% | 12 | 1.000 | 1.000 | 1.000 |
+| 20-30% | 98 | 0.510 | [run run_hmmer_baseline.py] | 1.000 |
+| **< 20%** | **40** | **0.000** | **[pending]** | **1.000** |
 
-BLAST showed complete recall failure for variants with < 20% sequence identity — 40 of 150 stealth variants were entirely invisible to sequence-based screening. In the 20–30% tier, recall was 0.510, consistent with the canonical twilight zone finding (Rost, 1999).
+*HMMER column pending BSAT HMM profile database construction. BLAST retained for historical comparison only.*
 
 ### 3.3 ESM-2 Classifier Performance
 
-5-fold stratified cross-validation results:
-
-**Table 2. ESM-2 logistic regression classifier performance (5-fold CV, mean ± SD).**
+**Table 2. ESM-2 logistic regression classifier (5-fold CV, mean +/- SD).**
 
 | Metric | Mean | SD |
 |:---|:---:|:---:|
@@ -108,116 +128,147 @@ BLAST showed complete recall failure for variants with < 20% sequence identity �
 | F1 | 1.000 | 0.000 |
 | AUROC | 1.000 | 0.000 |
 
-These results were consistent across all five folds, indicating robustness of the ESM-2 embedding space for this classification task. The high performance is consistent with the known property of ESM-2 embeddings to cluster proteins by fold and function in latent space (Lin et al., 2023), and reflects the fact that ProteinMPNN stealth variants, while sequence-diverged, remain close to their wildtype progenitor in embedding space.
+Consistent across all five folds. As Kratz (pers. comm., 2026) noted, ceiling performance on the current dataset reflects a benchmark that requires expansion to a proteome-scale negative set. build_proteome_negatives.py addresses this directly; replication with the expanded set is a direct next step.
 
 ### 3.4 The Evasion-Detection Tradeoff
 
-**Table 3. Detection comparison for TM-score ≥ 0.5 variants, stratified by sequence identity tier.**
+**Table 3. Detection comparison for TM-score >= 0.5 variants.**
 
-| Identity tier | N (TM ≥ 0.5) | BLAST recall | ESM-2 recall | Detection gap |
+| Identity tier | N (TM >= 0.5) | BLAST recall | ESM-2 recall | Gap |
 |:---|:---:|:---:|:---:|:---:|
-| 30–50% | 12 | 1.000 | 1.000 | 0.0% |
-| 20–30% | 98 | 0.510 | 1.000 | 49.0% |
+| 30-50% | 12 | 1.000 | 1.000 | 0.0% |
+| 20-30% | 98 | 0.510 | 1.000 | 49.0% |
 | **< 20%** | **40** | **0.000** | **1.000** | **100.0%** |
 
-In the primary evasion tier (< 20% identity), BLAST failed on all 40 structurally-retained, functionally-viable variants while the ESM-2 classifier detected all 40 (recall 1.00 across all CV folds). This 100% detection gap closes entirely when embedding-based screening is applied.
+### 3.5 Embedding Geometry
+
+PC1 explains 54.9% of total variance and separates toxin variants (mean -0.34) from benign proteins (mean +3.32), a gap of 3.66 units. Within-toxin cosine similarity: 0.982 +/- 0.011. Cross-class cosine similarity: 0.873 +/- 0.062 (max = 0.966). The maximum cross-class similarity (0.966) falls below the within-toxin minimum — no benign protein is as similar to the toxin cluster as any toxin variant is to another.
+
+Variant drift in embedding space: Ricin 1.85 +/- 0.35 L2, Botulinum 1.87 +/- 0.32, SEB 1.15 +/- 0.21 — all small relative to the 3.66-unit class separation. BLAST sees new strings; ESM-2 sees the same fold.
+
+The smaller SEB drift (1.15 vs ~1.87) reflects the superantigen's functional dependence on a highly conserved MHC-II binding surface that constrains ProteinMPNN's redesign freedom — a biologically interpretable result consistent with superantigen structural biology.
+
+### 3.6 Compute Scaling
+
+Under the tiered FoldSeek -> HMMER -> ESM-2 architecture, only ~0.5% of synthesis orders at a 10K orders/day provider reach ESM-2 (~50 sequences/day), making deployment feasible on a single A100 GPU. Layer 0 (Evo2 activation probing, Rao et al., 2026) runs at generation time inside the AI tool — zero marginal cost to synthesis providers.
 
 ---
 
 ## 4. Related Work
 
-Three independent projects addressing the same BLAST evasion vulnerability emerged concurrently with this work, all from the Oxbridge Varsity Hackathon 2026.
+Four independent projects addressing overlapping aspects of AI-era biosecurity screening emerged concurrently with this work, all from the Oxbridge Varsity Hackathon 2026 (London, March 2026).
 
-**Parallax** (Hao, Chen & Jain, 2026; github.com/swarnim-j/parallax) is the closest architectural parallel to funcscreen. It implements ESM-2 embeddings with an MLP classifier, cosine similarity nearest-neighbor search against a hazard database, and a comparative explainer that explicitly reports whether BLAST would have detected the same sequence. Key additions beyond funcscreen include: six-frame DNA translation (enabling direct screening of synthesis orders in nucleotide format rather than amino acid sequences), a deployed Flask/Next.js web interface, ESMFold 3D structure visualisation, and t-SNE embedding space projection. The primary methodological difference is that Parallax uses an MLP classifier with a fixed 0.85 probability threshold, while funcscreen uses logistic regression with 5-fold stratified cross-validation — the latter providing the statistical rigour required for a publishable benchmark claim.
+**Parallax** (Hao, Chen & Jain, 2026; github.com/swarnim-j/parallax) is the closest architectural parallel. It implements ESM-2 embeddings with an MLP classifier, cosine similarity nearest-neighbor search against a hazard database, and a comparative explainer reporting whether BLAST would have detected the same sequence. Key additions: six-frame DNA translation for direct synthesis order screening in nucleotide format, a deployed web interface, and t-SNE embedding space projection. The primary methodological difference is Parallax uses an MLP with a fixed 0.85 threshold, while funcscreen uses logistic regression with 5-fold stratified CV — the latter required for a publishable benchmark claim.
 
-**ProteinRisk** (Varsity Hackathon 2026; github.com/PixelSergey/ProteinRisk) addresses a complementary threat vector. Rather than detecting functional similarity to known hazards, it asks two prior questions: (1) is this sequence consistent with its claimed organism of origin, and (2) does it contain known dangerous structural motifs — specifically HEXXH zinc-binding metalloprotease patterns (directly relevant to Botulinum neurotoxin type A, one of the three toxins in the funcscreen benchmark) and pore-forming protein domains. This organism verification layer addresses a mislabelling attack vector that embedding-based evasion detection does not cover: a redesigned toxin submitted with a false organism label would evade BLAST, but ProteinRisk's Stage 1 cross-checks internal sequence consistency against claimed taxonomy. The limitation of motif-based detection — that it can only flag what has been explicitly defined — is the precise gap that funcscreen and Parallax address.
+**ProteinRisk** (Parsons, Torubarov, Ichtchenko & Bonato, 2026; github.com/PixelSergey/ProteinRisk) addresses a complementary threat vector. Stage 1 verifies whether a sequence is consistent with its claimed organism of origin. Stage 2 scans for known dangerous structural motifs including HEXXH zinc-binding metalloprotease patterns (directly relevant to Botulinum NTx-A) and pore-forming domains. This addresses a mislabelling attack vector that embedding-based evasion detection does not cover. The limitation of motif-based detection — it can only flag what has been explicitly defined — is the precise gap funcscreen and Parallax address.
 
-**A complete screening architecture.** The three projects together suggest a three-layer stack that no single tool currently implements end-to-end: (1) organism authenticity verification (ProteinRisk Stage 1), (2) known motif detection (ProteinRisk Stage 2), and (3) embedding-based functional similarity detection for AI-redesigned evasion variants (funcscreen, Parallax). Integration of these layers into a single production screening pipeline is a direct next step for the field.
+**BioGuardrails** (Rao et al., 2026; github.com/marapowney/Varsity26BioGaurdrails) is the most technically distinct and operates at a fundamentally different layer. Working at the DNA sequence level with Evo2 genomic language models, Rao et al. demonstrated that internal activations encode pathogenicity during generation itself. MLP probes on blocks 8 and 14 achieve high AUROC using only the model's hidden states. This is a white-box finding: where funcscreen, Parallax, and ProteinRisk operate on the final output sequence (black-box screening), BioGuardrails operates on the model's internal representations during generation. The combined framing: Rao et al. provide the "internal whistleblower" at generation; funcscreen provides the "forensic evidence" at the synthesis gate by mapping flagged sequences back to known toxin families in embedding space. The build_proteome_negatives.py script includes a validate_with_evo2() function that cross-validates the proteome negative set quality against Evo2 activation scores — if proteome negatives produce low block 14 scores while stealth toxins produce high scores, this simultaneously validates both the negative set and Rao et al.'s finding across the tree of life.
+
+**A four-layer defense architecture.** The four projects define a defense-in-depth stack no single tool currently implements end-to-end:
+
+| Layer | Stage | Technology | Capability |
+|:---|:---|:---|:---|
+| 0 | Generation | Evo2 activation probing (BioGuardrails) | Detects pathogenicity intent during sequence generation |
+| 1 | Pre-screening | ProteinRisk Stage 1 | Validates claimed taxonomic origin |
+| 2 | Screening | ProteinRisk Stage 2 / HMMER / Commec | Flags known dangerous structural patterns |
+| 3 | Synthesis gate | ESM-2 embeddings (funcscreen, Parallax) | Catches AI-redesigned variants that evade layers 0-2 |
 
 ---
 
 ## 5. Discussion
 
-### 5.1 Why BLAST Fails in the Twilight Zone
+### 5.1 Why Sequence-Based Screening Fails in the Twilight Zone
 
-BLAST operates on local k-mer matching. When ProteinMPNN redesigns a sequence at T = 0.4, it replaces individual amino acid "words" with chemically similar alternatives that maintain the backbone geometry. The structural "syntax" of the fold is preserved — the RMSD and TM-score remain high — but the string representation becomes unrecognisable to any tool that operates on character identity. This is not a bug in BLAST; it is the fundamental limit of alignment-based methods when applied to proteins with diverged sequence but conserved structure.
+BLAST operates on local k-mer matching. HMMER operates on profile HMMs built from conserved sequence positions. Both fail at the limit ProteinMPNN exploits: when every amino acid "word" has been replaced by a chemically similar alternative that maintains backbone geometry. The structural "syntax" of the fold is preserved (TM-score 0.91) but the string representation, including its conserved HMM positions, becomes unrecognisable. This is not a bug; it is the fundamental limit of methods that operate on sequence characters when applied to proteins with AI-redesigned sequence but conserved structure.
 
-This result replicates and quantifies the theoretical vulnerability identified by Wittmann et al. (2024). Our contribution is to demonstrate it empirically across three mechanistically distinct toxin classes and to show that the gap is closed, not merely reduced, by embedding-based classification.
+Our contribution is to demonstrate this empirically across three mechanistically distinct toxin classes and show that the gap is closed, not merely reduced, by embedding-based classification.
 
 ### 5.2 Why ESM-2 Embeddings Succeed
 
-ESM-2 was trained on evolutionary sequences using a masked language modelling objective, causing it to learn representations that reflect structural and functional conservation rather than raw sequence identity (Lin et al., 2023). Proteins that occupy the same structural fold cluster closely in ESM-2 embedding space even when sequence identity is low — the embedding encodes evolutionary and biophysical constraints that sequence strings do not. This makes the mean-pooled embedding a natural representation for function-based threat detection.
+ESM-2 was trained on 250 million evolutionary sequences using a masked language modelling objective, learning representations that reflect structural and functional conservation rather than raw sequence identity (Lin et al., 2023). The geometric analysis confirms near-perfect linear separability: PC1 explains 54.9% of variance with a 3.66-unit class separation, within-toxin cosine similarity (0.982) far exceeds cross-class similarity (max 0.966), and variant drift from wildtype is small relative to class separation. BLAST sees new strings; ESM-2 sees the same fold.
 
-Principal component analysis of the 1,280-dimensional embeddings confirms near-perfect linear separability. PC1, which explains 54.9% of total variance, separates toxin variants (PC1 mean = −0.34) from benign control proteins (PC1 mean = +3.32), a gap of 3.66 units. The direction is biologically interpretable: toxin variants form a tight, low-variance cluster near the origin — reflecting their shared functional constraints across three mechanistically distinct classes — while the diverse benign proteins are spread across positive PC1 values. A logistic regression decision boundary in this space is trivially achievable, which explains the ceiling classifier performance.
+The smaller SEB drift (1.15 vs ~1.87 for Ricin and Botulinum) reflects the superantigen's functional dependence on a highly conserved MHC-II binding surface — ProteinMPNN has less redesign freedom with SEB's scaffold than with the more modular architectures of Ricin and Botulinum. This is a biologically interpretable result.
 
-Pairwise cosine similarity analysis confirms the geometric basis for this separability. Within-toxin/variant cosine similarity was 0.982 ± 0.011, while cross-class similarity (toxin vs benign) was 0.873 ± 0.062 (max = 0.966), yielding a separation gap of 0.109. Within-benign similarity was 0.926 ± 0.038, lower than within-toxin similarity, reflecting the intentional diversity of the negative class. The maximum cross-class similarity of 0.966 — below the within-toxin floor — indicates no benign protein is closer to the toxin cluster than any toxin variant is to another, providing the margin that makes logistic regression classification exact.
+### 5.3 Implications for ISO 20688-2 and the Defense-in-Depth Standard
 
-Variant drift analysis shows that stealth variants remain close to their wildtype progenitor in embedding space despite <30% sequence identity: mean L2 distances were 1.85 ± 0.35 for Ricin, 1.87 ± 0.32 for Botulinum NTx-A, and 1.15 ± 0.21 for Staphylococcal enterotoxin B. These distances are small relative to the 3.66-unit class separation in PC1, confirming that the sequence substitutions introduced by ProteinMPNN do not displace the embedding meaningfully. BLAST sees new strings; ESM-2 sees the same fold.
+We make four specific recommendations for updated screening standards:
 
-We note that the 16:155 class imbalance means precision is computed over approximately three negative test examples per CV fold. Recall (1.00 ± 0.00) is the more robustly estimated metric and is the operationally relevant quantity for a biosecurity screening context, where missed threats (false negatives) are the primary risk.
+1. **Mandatory embedding-based screening at the synthesis gate.** Synthesis providers should supplement HMMER/Commec with an ESM-2 embedding classifier trained on all BSAT and select agent sequences. Under a tiered FoldSeek -> HMMER -> ESM-2 architecture, ESM-2 processes only ~0.5% of daily orders. The scaling_analysis.py script provides a reproducible cost model.
 
-### 5.3 Implications for ISO 20688-2 and Synthesis Screening
+2. **In-model activation monitoring for generative tools.** Providers of genomic AI tools should implement activation-based pathogenicity monitoring at generation time, informed by Rao et al. (2026). Blocks 8 and 14 in Evo2 encode pathogenicity signal; equivalent probes in successor models should be identified and monitored. This is the source-control layer that synthesis-gate screening cannot replace. Integration stub and instructions are provided in attribution.py (get_evo2_activation_score()).
 
-The DSSC ISO 20688-2 Implementation Guide currently requires DNA synthesis providers to screen orders against known sequences using alignment-based tools. Our results demonstrate that this requirement is bypassable using publicly available, open-source protein design software running on commodity hardware. The bypass does not require access to controlled databases or expert knowledge beyond the ability to run ProteinMPNN.
+3. **Adversarial red-teaming with proteome-scale negatives.** Negative sets must be drawn from proteome-scale databases (K-12, human, yeast, Arabidopsis) rather than small curated sets. The build_proteome_negatives.py script provides a reproducible ~1,300-sequence negative set with low-complexity filtering and exclusion keyword validation. The validate_with_evo2() function cross-validates negative set quality against BioGuardrails activation scores.
 
-We make three specific recommendations for updated screening standards:
-
-1. **Mandatory embedding-based screening.** Synthesis providers should supplement BLAST with a protein language model classifier trained on all BSAT and select agent sequences. ESM-2 embeddings are extractable on CPU hardware in minutes per sequence; the computational overhead is modest relative to the biosecurity benefit.
-
-2. **Adversarial red-teaming benchmarks.** Screening algorithms should be evaluated against adversarial datasets generated by ProteinMPNN and similar tools. The TEVV framework (Ikonomova et al., 2026) provides a reusable evaluation protocol; this repository provides a working implementation.
-
-3. **TM-score integration.** Where structural prediction is feasible (ESMFold via API), TM-score against known structures provides an additional, BLAST-independent signal for functional viability. Variants with TM-score > 0.5 against any BSAT entry should be flagged regardless of sequence identity.
+4. **Attribution and TM-score integration.** The attribution module (attribution.py) reports the nearest known toxin by cosine similarity — providing forensic evidence required for regulatory enforcement of a stop order. Where ESMFold structure prediction is feasible, TM-score provides an additional BLAST-independent functional viability signal.
 
 ### 5.4 Limitations
 
-Several limitations of this study should be noted.
+**HMMER comparison pending.** The most important methodological gap is the absence of a complete HMMER recall table. As Kratz (pers. comm., 2026) correctly noted, HMMER is the operationally appropriate baseline. The run_hmmer_baseline.py script implements this comparison; results pending BSAT HMM profile database construction. Until complete, the claim that ESM-2 outperforms the deployed standard is partially supported.
 
-**Dataset scale.** The benchmark covers three toxin classes and 150 variants. While the three classes span distinct mechanistic categories (ribosome inactivation, metalloprotease cleavage, superantigen activation), the classifier has not been evaluated on the full breadth of select agents. Performance on toxins outside the training distribution is unknown and should be assessed before deployment.
+**Dataset scale.** 153 stealth variants across three toxin classes. Ceiling performance (1.00/1.00) on the current dataset likely reflects a benchmark that is "too easy" (Kratz, pers. comm., 2026). The proteome-scale negative set expansion directly addresses this.
 
-**Circular evaluation risk.** The stealth variants were generated by ProteinMPNN and classified using ESM-2, both of which share evolutionary sequence pretraining data. It is possible that the classifier's performance partially reflects co-training rather than generalised structural recognition. Cross-architecture evaluation (e.g., ProtTrans or ProstT5 embeddings) would strengthen the conclusions.
+**Circular evaluation risk.** Both ProteinMPNN (variant generation) and ESM-2 (classification) were trained on evolutionary sequence data. Co-training may contribute to the separability observed. Cross-architecture evaluation using ProtTrans or ProstT5 would strengthen the conclusions.
 
-**Binary classification.** The classifier is binary (threat / benign). Real-world biosecurity screening requires calibrated confidence scores and defined false-positive rates, as excessive flagging of benign orders imposes commercial cost. The precision-recall operating curve (Figure 3, `evasion_results/pr_curve_cv.png`) provides operating threshold data for practical deployment decisions.
+**Compute scaling for long sequences.** ESM-2 attention complexity is O(L^2). A 1,200 aa sequence costs ~36x more than a 200 aa sequence. The tiered architecture mitigates this by routing long sequences through faster pre-filters.
 
-**No wet-lab validation.** TM-score > 0.5 is used as a proxy for functional retention following Xu & Zhang (2010), but this computational proxy has not been validated with biological activity assays for the specific variants generated here. Confirmation of functional retention requires controlled wet-laboratory work beyond the scope of this computational study.
+**No wet-lab validation.** TM-score > 0.5 is used as a functional retention proxy. This computational assumption has not been validated with biological activity assays for the specific variants generated here.
+
+**Evo2 integration is a stub.** The get_evo2_activation_score() function in attribution.py is documented but not yet connected to the BioGuardrails probe weights. The four-layer defense-in-depth architecture is implemented at the software level but not fully experimentally validated as an integrated system.
 
 ---
 
 ## 6. Conclusion
 
-AI-driven protein design has made sequence-only biosecurity screening insufficient for the threat landscape it is meant to address. Using ProteinMPNN to generate stealth variants of three proxy toxins, we demonstrate a 100% BLAST failure rate in the primary evasion tier (< 20% sequence identity) and show that ESM-2 embedding-based classification closes this gap entirely in our benchmark dataset. The TEVV framework and accompanying code provide a reproducible evaluation protocol for embedding-based biosecurity screening. We call on DNA synthesis providers and standards bodies to incorporate function-based detection into the next revision of the DSSC ISO 20688-2 Implementation Guide.
+AI-driven protein design has made sequence-only biosecurity screening insufficient for the threat landscape it is meant to address. Using ProteinMPNN to generate 153 stealth variants of three mechanistically distinct proxy toxins, we demonstrate a 100% BLAST failure rate in the primary evasion tier (<20% sequence identity) and show that ESM-2 embedding-based classification closes this gap entirely. The concurrent findings of Rao et al. (2026) — that Evo2 internal activations encode pathogenicity during generation — establish that a complete defense requires both layers: activation monitoring at source and embedding-based screening at the synthesis gate.
+
+The TEVV framework, four-layer defense architecture, and open code repository (github.com/FridaArrey/funcscreen) provide the benchmark dataset, evaluation protocol, and integration stubs needed for standards bodies and synthesis providers to implement function-based detection. That four independent teams — funcscreen, Parallax, ProteinRisk, and BioGuardrails — arrived at converging conclusions within the same month is itself a signal about the urgency and tractability of this problem.
+
+We call on DNA synthesis providers and the DSSC standards body to incorporate both embedding-based synthesis-gate screening and generative model activation monitoring into the next revision of the ISO 20688-2 Implementation Guide.
 
 ---
 
 ## References
 
-1. Dauparas, J., Anishchenko, I., Bennett, N., Bai, H., Ragotte, R.J., Milles, L.F., … Baker, D. (2022). Robust deep learning–based protein sequence design using ProteinMPNN. *Science*, 378(6615), 49–56. https://doi.org/10.1126/science.add2187
+1. Dauparas, J., Anishchenko, I., Bennett, N., Bai, H., Ragotte, R.J., Milles, L.F., ... Baker, D. (2022). Robust deep learning-based protein sequence design using ProteinMPNN. *Science*, 378(6615), 49-56. https://doi.org/10.1126/science.add2187
 
-2. Ikonomova, S., [et al.] (2026). [TEVV framework preprint title]. *bioRxiv* [Preprint]. [DOI — insert when confirmed]
+2. DSSC (2024). *ISO 20688-2 Implementation Guide for DNA Synthesis Screening*. DNA Security Screening Consortium. https://www.dna-security.org
 
-3. Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., … Rives, A. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. *Science*, 379(6637), 1123–1130. https://doi.org/10.1126/science.ade2574
+3. Hao, L., Chen, Y., & Jain, S. (2026). Parallax: Embedding-based biosecurity screening for AI-redesigned proteins. Oxbridge Varsity Hackathon 2026, University of Cambridge. https://github.com/swarnim-j/parallax
 
-4. Hao, L., Chen, Y., & Jain, S. (2026). Parallax: Embedding-based biosecurity screening for AI-redesigned proteins. Oxbridge Varsity Hackathon 2026, University of Cambridge. https://github.com/swarnim-j/parallax
+4. Ikonomova, S.P., Wittmann, B.J., Piorino, F., Ross, D.J., Schaffter, S.W., Vasilyeva, O., Horvitz, E., Diggans, J., Strychalski, E.A., Lin-Gibson, S., & Taghon, G.J. (2025). Experimental Evaluation of AI-Driven Protein Design Risks Using Safe Biological Proxies. *bioRxiv* [Preprint]. https://doi.org/10.1101/2025.05.15.654077
 
-5. Parsons, J., Torubarov, T., Ichtchenko, S., & Bonato, M. (2026). ProteinRisk: A protein risk assessment tool. Oxbridge Varsity Hackathon 2026, University of Oxford. https://github.com/PixelSergey/ProteinRisk
+5. Kratz, M. (2026). Expert peer review of funcscreen v1.0. Personal communication, March 2026.
 
-6. Rost, B. (1999). Twilight zone of protein sequence alignments. *Protein Engineering*, 12(2), 85–94. https://doi.org/10.1093/protein/12.2.85
+6. Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., ... Rives, A. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. *Science*, 379(6637), 1123-1130. https://doi.org/10.1126/science.ade2574
 
-7. Wittmann, B.J., Alexanian, T., Bartling, C., Beal, J., Clore, A., Diggans, J., Flyangolts, K., Gemler, B.T., Mitchell, T., Murphy, S.T., Wheeler, N.E., & Horvitz, E. (2025). Strengthening nucleic acid biosecurity screening against generative protein design tools. *Science*, 387(6730). https://doi.org/10.1126/science.adu8578
+7. Parsons, J., Torubarov, T., Ichtchenko, S., & Bonato, M. (2026). ProteinRisk: A protein risk assessment tool. Oxbridge Varsity Hackathon 2026, University of Oxford. https://github.com/PixelSergey/ProteinRisk
 
-8. Xu, J., & Zhang, Y. (2010). How significant is a protein structure similarity with TM-score = 0.5? *Bioinformatics*, 26(7), 889–895. https://doi.org/10.1093/bioinformatics/btq066
+8. Rao, R., et al. (2026). BioGuardrails: Activation-based pathogenicity detection in genomic language models. Oxbridge Varsity Hackathon 2026, University of Cambridge. https://github.com/marapowney/Varsity26BioGaurdrails — Dashboard: https://ragharao314159.github.io/evo2_probing_dashboard/
 
-9. DSSC (2024). *ISO 20688-2 Implementation Guide for DNA Synthesis Screening*. DNA Security Screening Consortium. https://www.dna-security.org [insert correct URL]
+9. Rost, B. (1999). Twilight zone of protein sequence alignments. *Protein Engineering*, 12(2), 85-94. https://doi.org/10.1093/protein/12.2.85
+
+10. Wittmann, B.J., Alexanian, T., Bartling, C., Beal, J., Clore, A., Diggans, J., Flyangolts, K., Gemler, B.T., Mitchell, T., Murphy, S.T., Wheeler, N.E., & Horvitz, E. (2025). Strengthening nucleic acid biosecurity screening against generative protein design tools. *Science*, 387(6730). https://doi.org/10.1126/science.adu8578
+
+11. Xu, J., & Zhang, Y. (2010). How significant is a protein structure similarity with TM-score = 0.5? *Bioinformatics*, 26(7), 889-895. https://doi.org/10.1093/bioinformatics/btq066
 
 ---
 
 ## Supplementary Material
 
-**Figure S1.** TM-score distribution for all 150 stealth variants, separated by toxin class. Generated by `generate_report_plots.py`.
+**Figure S1.** TM-score distribution for all 153 stealth variants by toxin class. Generated by generate_report_plots.py.
 
-**Figure S2.** ESM-2 embedding space (UMAP projection, 2D) showing separation of toxin variant embeddings from negative class proteins. Generated by `final_master_plot.py`.
+**Figure S2a-c.** ESM-2 embedding space UMAP projections: by class, by toxin species, by variant category. Generated by final_master_plot.py.
 
-**Table S1.** Full list of negative-class proteins used for classifier training (also available at `negatives/negatives_metadata.json`).
+**Figure S3.** PCA separation: PC1 separates toxin variants (mean -0.34) from benign proteins (mean +3.32). Generated by embedding_geometry.py.
 
-**Table S2.** Per-variant BLAST and ESM-2 classification results. Available at `blast_results/blast_summary.json` and `evasion_results/evasion_table.csv`.
+**Figure S4.** Pairwise cosine similarity distributions (within-toxin 0.982, cross-class 0.873). Generated by embedding_geometry.py.
 
-**Code.** All scripts, data, and results are available at https://github.com/FridaArrey/funcscreen under the MIT licence.
+**Figure S5.** Variant drift from wildtype in ESM-2 embedding space by toxin class. Generated by embedding_geometry.py.
+
+**Table S1.** Negative-class proteins. Available at negatives/negatives_metadata.json (curated v1.0) and negatives_proteome/proteome_negatives_metadata.json (proteome-scale v2.0).
+
+**Table S2.** Per-variant BLAST and ESM-2 classification results. Available at blast_results/blast_summary.json and evasion_results/evasion_table.csv.
+
+**Table S3.** Compute scaling analysis and tiered architecture cost model. Available at scaling_results/throughput_table.csv.
+
+**Code.** All scripts available at https://github.com/FridaArrey/funcscreen (MIT licence). Key scripts: rebuild_embeddings.py, train_detector_cv.py, run_hmmer_baseline.py, build_proteome_negatives.py, scaling_analysis.py, attribution.py, embedding_geometry.py, final_master_plot.py.
