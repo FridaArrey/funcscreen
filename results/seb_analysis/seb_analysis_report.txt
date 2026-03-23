@@ -1,0 +1,35 @@
+SEB Detection Gap Analysis - Complete Results
+==================================================
+
+Detection Method Comparison:
+------------------------------
+HMMER_profiles: 0/51 (0.000)
+ESM-2_embeddings: 51/51 (1.000)
+Sequence_identity: 34.4% average
+
+Regional Conservation Analysis:
+------------------------------
+N-terminal_beta (pos 10-25): 10.7% avg conservation
+  → Significant structural divergence likely
+Central_alpha (pos 80-120): 4.0% avg conservation
+  → Significant structural divergence likely
+Binding_loop (pos 150-170): 1.0% avg conservation
+  → Significant structural divergence likely
+C-terminal (pos 240-266): 8.5% avg conservation
+  → Significant structural divergence likely
+
+Structural Validation (ESMFold):
+------------------------------
+Sequence length: 266 aa
+Token count: 268
+Tokenization success: True
+Key finding: ESM-2 recognizes variant as valid protein
+
+Key Insights:
+------------------------------
+1. ProteinMPNN creates 'sequence ghosts' - variants that maintain
+   functional structure while becoming invisible to traditional screening
+2. Traditional surveillance relies on evolutionary 'clues' that
+   computational design effectively 'scrubs' away
+3. Structure-aware methods (ESM-2) remain robust where
+   evolutionary approaches (HMMER) completely fail

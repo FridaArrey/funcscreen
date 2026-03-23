@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      results/seb_analysis/seb_mature_domain.fasta
+# Target file:     /tmp/bsat_profiles_v2.hmm
+# Option settings: hmmscan --tblout results/seb_analysis/seb_hmmer_results.txt /tmp/bsat_profiles_v2.hmm results/seb_analysis/seb_mature_domain.fasta 
+# Current dir:     /Users/fridaarrey/funcscreen
+# Date:            Mon Mar 23 06:34:38 2026
+# [ok]
